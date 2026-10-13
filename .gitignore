@@ -1,0 +1,27 @@
+# Racket compiled files
+compiled/
+**/compiled/
+
+# Racket temporary files
+*.zo
+*.dep
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+
+# VS Code local state
+.vscode/*.log
+
+# Generated application output
+data/output/*
+!data/output/.gitkeep
+
+# Generated test output
+tests/fixtures/output/*
+!tests/fixtures/output/.gitkeep
+
+# Temporary files
+*.tmp
+*.bak
+*~
