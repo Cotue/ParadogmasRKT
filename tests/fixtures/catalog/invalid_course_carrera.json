@@ -1,16 +1,19 @@
 {
-  "schemaVersion": "1.1",
+  "schemaVersion": "2.0",
   "carrera": { "codigo": "IC", "nombre": "Ingeniería en Computadores" },
   "cursos": [
     {
       "codigo": "CE1101",
-      "nombre": "Intro",
+      "nombre": "Introducción a la Programación",
+      "carrera": "",
       "creditos": 3,
       "semestre": 1,
-      "carrera": "",
-      "requisitos": [], "correquisitos": [], "correquisitosPendientes": [],
+      "requisitos": [],
+      "correquisitos": [],
+      "correquisitosPendientes": [],
       "grupos": [],
-      "tieneChoque": false, "puedeMatricular": true
+      "tieneChoque": false,
+      "puedeMatricular": true
     }
   ]
 }

@@ -34,12 +34,12 @@
          (hash-ref h 'tieneChoque)
          (map json->group-conflict (hash-ref h 'choques '()))))
 
-(define (json->course h career-code)
+(define (json->course h)
   (course (hash-ref h 'codigo)
           (hash-ref h 'nombre)
           (hash-ref h 'creditos)
           (hash-ref h 'semestre)
-          career-code
+          (hash-ref h 'carrera)
           (hash-ref h 'requisitos '())
           (hash-ref h 'correquisitos '())
           (hash-ref h 'correquisitosPendientes '())
@@ -48,12 +48,11 @@
           (hash-ref h 'puedeMatricular)))
 
 (define (json->catalog h)
-  (let* ([carrera (hash-ref h 'carrera)]
-         [career-code (hash-ref carrera 'codigo)])
+  (let ([carrera (hash-ref h 'carrera)])
     (catalog (hash-ref h 'schemaVersion)
-             career-code
+             (hash-ref carrera 'codigo)
              (hash-ref carrera 'nombre)
-             (map (lambda (c) (json->course c career-code)) (hash-ref h 'cursos '())))))
+             (map json->course (hash-ref h 'cursos '())))))
 
 (define (parse-and-validate-catalog filepath)
   (bind (read-json-file filepath)
@@ -63,10 +62,12 @@
           (bind (validate-schema-version json-data)
             (lambda (_)
               (let ([courses (hash-ref json-data 'cursos)])
-                (bind (validate-course-credits courses)
+                (bind (validate-course-carrera courses)
                   (lambda (_)
-                    (bind (validate-group-numbers courses)
+                    (bind (validate-course-credits courses)
                       (lambda (_)
-                        (bind (validate-conflict-references courses)
+                        (bind (validate-group-numbers courses)
                           (lambda (_)
-                            (result-ok (json->catalog json-data)))))))))))))))))
+                            (bind (validate-conflict-references courses)
+                              (lambda (_)
+                                (result-ok (json->catalog json-data))))))))))))))))))

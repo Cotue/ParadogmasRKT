@@ -26,7 +26,6 @@
                  groups has-conflict can-enroll) #:transparent)
 (struct catalog (schema-version career-code career-name courses) #:transparent)
 
-
 (struct result-ok (val) #:transparent)
 (struct result-err (msg) #:transparent)
 
