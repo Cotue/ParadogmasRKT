@@ -1,0 +1,19 @@
+{
+  "schemaVersion": "1.1",
+  "carrera": { "codigo": "IC", "nombre": "Ingeniería en Computadores" },
+  "cursos": [
+    {
+      "codigo": "CE1101",
+      "nombre": "Intro",
+      "creditos": 3,
+      "semestre": 1,
+      "carrera": "Computadores",
+      "requisitos": [], "correquisitos": [], "correquisitosPendientes": [],
+      "grupos": [
+        { "numero": 1, "horarios": [], "tieneChoque": false, "choques": [] },
+        { "numero": 1, "horarios": [], "tieneChoque": false, "choques": [] }
+      ],
+      "tieneChoque": false, "puedeMatricular": true
+    }
+  ]
+}

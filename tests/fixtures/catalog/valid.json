@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.1",
+  "carrera": { "codigo": "IC", "nombre": "Ingeniería en Computadores" },
+  "cursos": [
+    {
+      "codigo": "CE1101",
+      "nombre": "Introducción a la Programación",
+      "creditos": 3,
+      "semestre": 1,
+      "carrera": "Computadores",
+      "requisitos": [],
+      "correquisitos": [],
+      "correquisitosPendientes": ["MA1101"],
+      "grupos": [
+        {
+          "numero": 1,
+          "horarios": [
+            { "dia": "LUN", "inicio": "07:30", "fin": "09:20" }
+          ],
+          "tieneChoque": false,
+          "choques": []
+        }
+      ],
+      "tieneChoque": false,
+      "puedeMatricular": true
+    }
+  ]
+}

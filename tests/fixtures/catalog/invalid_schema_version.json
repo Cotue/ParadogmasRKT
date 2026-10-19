@@ -1,0 +1,5 @@
+{
+  "schemaVersion": "1.0",
+  "carrera": { "codigo": "IC", "nombre": "Ingeniería en Computadores" },
+  "cursos": []
+}
