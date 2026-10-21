@@ -9,12 +9,14 @@
          validate-group-numbers
          validate-conflict-references)
 
+;;la versión del esquema sea estrictamente "2.0"
 (define (validate-schema-version hash-data)
   (let ([ver (hash-ref hash-data 'schemaVersion #f)])
     (if (equal? ver "2.0")
         (result-ok hash-data)
         (result-err (format "Versión de schema no compatible: ~a. Se requiere '2.0'." ver)))))
 
+;;la presencia de campos obligatorios de nivel superior
 (define (validate-required-fields hash-data)
   (if (not (hash? hash-data))
       (result-err "El JSON no es un objeto válido.")
@@ -30,6 +32,7 @@
                   (result-err "El campo 'carrera' carece de 'codigo' o 'nombre'.")))
             (result-err "Faltan campos obligatorios de nivel superior ('schemaVersion', 'carrera', 'cursos').")))))
 
+;;cada curso tenga una carrera definida como texto no vacío
 (define (validate-course-carrera courses-list)
   (let loop ([cs courses-list])
     (cond
@@ -42,6 +45,7 @@
              (result-err (format "El curso ~a no posee un campo 'carrera' válido o está vacío."
                                  (if (hash? c) (hash-ref c 'codigo "DESCONOCIDO") "DESCONOCIDO")))))])))
 
+;;los créditos estén en el rango de 0 a 12
 (define (validate-course-credits courses-list)
   (let loop ([cs courses-list])
     (cond
@@ -54,6 +58,7 @@
              (result-err (format "Créditos inválidos (~a) en curso ~a. Debe ser entero entre 0 y 12."
                                  cred (if (hash? c) (hash-ref c 'codigo "DESCONOCIDO") "DESCONOCIDO")))))])))
 
+;;no existen números de grupo duplicados por curso
 (define (validate-group-numbers courses-list)
   (define (check-groups grps seen-nums course-code)
     (cond
@@ -81,6 +86,7 @@
              (loop (cdr cs))
              res))])))
 
+;;referencias de choques apunten a grupos válidos del catálogo
 (define (validate-conflict-references courses-list)
   (define valid-pairs
     (append-map
