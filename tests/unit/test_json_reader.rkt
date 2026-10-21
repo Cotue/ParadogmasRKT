@@ -1,9 +1,10 @@
 #lang racket
 
 (require rackunit
-         racket/runtime-path
-         "../../src/io/catalog.rkt"
-         "../../src/models/types.rkt")
+        json
+        racket/runtime-path
+        "../../src/io/catalog.rkt"
+        "../../src/models/types.rkt")
 
 (define-runtime-path valid-json "../fixtures/catalog/valid.json")
 (define-runtime-path valid-empty-json "../fixtures/catalog/valid_empty.json")
@@ -87,3 +88,14 @@
   (let ([res (read-catalog-json invalid-conflict-json)])
     (check-true (result-err? res))
     (check-true (and (string? (result-err-msg res)) (not (string=? (result-err-msg res) ""))))))
+
+(test-case "Lee pending-corequisites y can-enroll en todos los cursos reales"
+   (for ([path (list real-computadores-json real-electronica-json)])
+     (let* ([raw (call-with-input-file path read-json)]
+            [cat (result-ok-val (read-catalog-json path))])
+       (for ([h (hash-ref raw 'cursos)]
+             [c (catalog-courses cat)])
+         (check-equal? (course-pending-corequisites c)
+                       (hash-ref h 'correquisitosPendientes))
+         (check-equal? (course-can-enroll c)
+                       (hash-ref h 'puedeMatricular))))))
