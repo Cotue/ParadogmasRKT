@@ -1,4 +1,4 @@
-v1.2
+v1.3
 
 # Contrato KANE 20: Lector y Validador del JSON de C
 
@@ -91,6 +91,7 @@ Archivo: `tests/unit/test_json_reader.rkt`. Fixtures en `tests/fixtures/catalog/
 | TC-10 | `invalid_conflict_ref.json` | Choque a un curso o grupo inexistente | `result-err` |
 | TC-11 | `real_computadores.json` | JSON real generado por C | `result-ok`, cursos > 0 |
 | TC-12 | `real_electronica.json` | JSON real generado por C | `result-ok`, cursos > 0 |
+| TC-13 | `real_computadores.json` y `real_electronica.json` | `course-pending-corequisites` y `course-can-enroll` coinciden con el JSON crudo en todos los cursos | `check-equal?` en cada curso |
 
 En todos los casos `result-err` el mensaje es un string no vacío y cada fixture inválido falla solo por el motivo que indica su nombre.
 
@@ -99,7 +100,7 @@ Verificación:
 raco make src/io/catalog.rkt tests/unit/test_json_reader.rkt
 raco test tests/unit/test_json_reader.rkt
 ```
-Resultado esperado: 12 tests passed.
+Resultado esperado: 13 tests passed.
 
 ## 6. Manejo de Errores y Códigos de Estado
 
@@ -117,6 +118,7 @@ El módulo no usa códigos numéricos. Los estados de C se traducen al tipo `Res
 - Leer el archivo y parsear el JSON.
 - Validar la estructura y las referencias internas de choques descritas en la sección 3.
 - Transformar el JSON en structs inmutables del dominio.
+- Leer `puedeMatricular` y `correquisitosPendientes` tal como vienen de C, sin recalcularlos.
 
 ### KANE 20 NO se encarga de:
 - Recalcular choques ni elegibilidad (lo hace C).
