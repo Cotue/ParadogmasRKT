@@ -1,0 +1,7 @@
+{
+  "schemaVersion": "2.0",
+  "creditos": { "min": -2, "max": 16 },
+  "cursosInteres": [
+    { "curso": "CE1101", "grupos": [1] }
+  ]
+}

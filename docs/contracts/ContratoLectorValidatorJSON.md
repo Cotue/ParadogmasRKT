@@ -17,9 +17,9 @@ Flujo interno (cada paso se encadena con `bind`; el primer error corta el resto)
 archivo .json
    │  read-json-file             (sintaxis JSON y lectura)
    ▼
-validate-schema-version          (schemaVersion = "2.0")
-   ▼
 validate-required-fields         (schemaVersion, carrera{codigo,nombre}, cursos)
+   ▼
+validate-schema-version          (schemaVersion = "2.0")
    ▼
 validate-course-carrera          (carrera de cada curso)
    ▼
@@ -38,8 +38,8 @@ json->catalog                    (JSON → structs)
 
 | # | Validador | Regla |
 |---|---|---|
-| 1 | `validate-schema-version` | `schemaVersion` es exactamente `"2.0"`. |
-| 2 | `validate-required-fields` | La raíz tiene `schemaVersion`, `carrera` (con `codigo` y `nombre`) y `cursos` (lista). |
+| 1 | `validate-required-fields` | La raíz tiene `schemaVersion`, `carrera` (con `codigo` y `nombre`) y `cursos` (lista). |
+| 2 | `validate-schema-version` | `schemaVersion` es exactamente `"2.0"`. |
 | 3 | `validate-course-carrera` | Cada curso tiene `carrera` como string no vacío. |
 | 4 | `validate-course-credits` | `creditos` es un entero entre 0 y 12. |
 | 5 | `validate-group-numbers` | Cada `numero` de grupo es un entero positivo y no se repite dentro del curso. |
