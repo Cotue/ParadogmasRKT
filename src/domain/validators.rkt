@@ -1,6 +1,6 @@
 #lang racket
 
-(require "../models/types.rkt")
+(require "../models/result.rkt")
 
 (provide validate-schema-version
          validate-required-fields
