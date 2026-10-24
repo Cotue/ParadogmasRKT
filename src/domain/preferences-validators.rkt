@@ -1,6 +1,11 @@
 #lang racket
 
-(require "../models/types.rkt")
+(require "../models/result.rkt"
+         (only-in "../models/types.rkt"
+                  catalog-courses
+                  course-code
+                  course-groups
+                  group-number))
 
 (provide validate-pref-schema-version
          validate-pref-credits
@@ -113,7 +118,9 @@
               [requested-groups (hash-ref c 'grupos)]
               [cat-course (findf (lambda (item) (string=? (course-code item) code))
                                  (catalog-courses cat))]
-              [valid-group-nums (map group-number (course-groups cat-course))])
+              [valid-group-nums
+ (map group-number
+     (course-groups cat-course))])
          (let loop-groups ([gs requested-groups])
            (cond
              [(null? gs) (loop-courses (cdr cs))]
