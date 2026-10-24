@@ -4,7 +4,7 @@
          racket/runtime-path
          "../../src/io/catalog.rkt"
          "../../src/io/preferences-reader.rkt"
-         "../../src/models/types.rkt"
+         "../../src/models/result.rkt"
          "../../src/models/preferences.rkt")
 
 (define-runtime-path catalog-path "../fixtures/catalog/real_computadores.json")

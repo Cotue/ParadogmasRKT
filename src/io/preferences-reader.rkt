@@ -1,7 +1,8 @@
 #lang racket
 
 (require racket/contract
-         "../models/types.rkt"
+         "../models/result.rkt"
+         "../models/catalog.rkt"
          "../models/preferences.rkt"
          "../domain/preferences-validators.rkt"
          "json_reader.rkt")

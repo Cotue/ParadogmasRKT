@@ -1,7 +1,8 @@
 #lang racket
 
 (require json
-         "../models/types.rkt"
+         "../models/result.rkt"
+         "../models/catalog.rkt"
          "../domain/validators.rkt")
 
 (provide parse-and-validate-catalog
@@ -22,45 +23,40 @@
       (lambda (port)
         (result-ok (read-json port))))))
 
-;; mapea estructura de horario
-(define (json->schedule h)
-  (schedule (string->symbol (hash-ref h 'dia))
-            (hash-ref h 'inicio)
-            (hash-ref h 'fin)))
+;; mapea una referencia de choque al identificador
+;; compuesto curso + grupo
+(define (json->group-key h)
+  (group-key (hash-ref h 'curso)
+             (hash-ref h 'grupo)))
 
-;; mapea conflicto de grupo
-(define (json->group-conflict h)
-  (group-conflict (hash-ref h 'curso)
-                  (hash-ref h 'grupo)))
+;; mapea un grupo conservando únicamente su número
+;; y las referencias de choque calculadas por C
+(define (json->group-option h)
+  (group-option
+   (hash-ref h 'numero)
+   (map json->group-key
+        (hash-ref h 'choques '()))))
 
-;; mapea estructura de grupo
-(define (json->group h)
-  (group (hash-ref h 'numero)
-         (map json->schedule (hash-ref h 'horarios '()))
-         (hash-ref h 'tieneChoque)
-         (map json->group-conflict (hash-ref h 'choques '()))))
-
-;; mapea estructura de curso leyendo la carrera directamente del objeto
+;; mapea un curso únicamente con los datos requeridos
+;; por las etapas posteriores de Racket
 (define (json->course h)
-  (course (hash-ref h 'codigo)
-          (hash-ref h 'nombre)
-          (hash-ref h 'creditos)
-          (hash-ref h 'semestre)
-          (hash-ref h 'carrera)
-          (hash-ref h 'requisitos '())
-          (hash-ref h 'correquisitos '())
-          (hash-ref h 'correquisitosPendientes '())
-          (map json->group (hash-ref h 'grupos '()))
-          (hash-ref h 'tieneChoque)
-          (hash-ref h 'puedeMatricular)))
+  (course
+   (hash-ref h 'codigo)
+   (hash-ref h 'carrera)
+   (hash-ref h 'creditos)
+   (hash-ref h 'puedeMatricular)
+   (hash-ref h 'correquisitosPendientes '())
+   (map json->group-option
+        (hash-ref h 'grupos '()))))
 
-;; mapea objeto JSON a la estructura principal catalog
+;; mapea el objeto raíz al catálogo canónico
 (define (json->catalog h)
   (let ([carrera (hash-ref h 'carrera)])
-    (catalog (hash-ref h 'schemaVersion)
-             (hash-ref carrera 'codigo)
-             (hash-ref carrera 'nombre)
-             (map json->course (hash-ref h 'cursos '())))))
+    (catalog
+     (hash-ref h 'schemaVersion)
+     (hash-ref carrera 'codigo)
+     (map json->course
+          (hash-ref h 'cursos '())))))
 
 ;; pipeline funcional con 6 validadores
 (define (parse-and-validate-catalog filepath)

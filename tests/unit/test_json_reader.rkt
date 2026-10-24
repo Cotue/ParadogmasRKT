@@ -1,10 +1,11 @@
 #lang racket
 
 (require rackunit
-        json
-        racket/runtime-path
-        "../../src/io/catalog.rkt"
-        "../../src/models/types.rkt")
+         json
+         racket/runtime-path
+         "../../src/io/catalog.rkt"
+         "../../src/models/result.rkt"
+         "../../src/models/catalog.rkt")
 
 (define-runtime-path valid-json "../fixtures/catalog/valid.json")
 (define-runtime-path valid-empty-json "../fixtures/catalog/valid_empty.json")
@@ -27,7 +28,7 @@
       (check-equal? (length (catalog-courses cat)) 1)
       (for-each
        (lambda (c)
-         (check-equal? (course-carrera c) (catalog-career-code cat)))
+         (check-equal? (course-career c) (catalog-career-code cat)))
        (catalog-courses cat)))))
 
 (test-case "Carga catálogo vacío válido correctamente"
@@ -97,5 +98,5 @@
              [c (catalog-courses cat)])
          (check-equal? (course-pending-corequisites c)
                        (hash-ref h 'correquisitosPendientes))
-         (check-equal? (course-can-enroll c)
+         (check-equal? (course-can-enroll? c)
                        (hash-ref h 'puedeMatricular))))))

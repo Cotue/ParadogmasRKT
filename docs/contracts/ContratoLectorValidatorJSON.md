@@ -62,16 +62,29 @@ json->catalog                    (JSON → structs)
 - Errores como valor (`Result`), sin excepciones en el flujo normal.
 - La carrera de cada curso se lee del campo `carrera` del curso, que C escribe igual a `carrera.codigo`. Este contrato no verifica esa igualdad.
 
-Estructuras (`src/models/types.rkt`, todas `#:transparent`):
+Estructuras de dominio utilizadas:
 
-| Struct | Campos |
-|---|---|
-| `schedule` | `day start end` |
-| `group-conflict` | `course-code group-number` |
-| `group` | `number schedules has-conflict conflicts` |
-| `course` | `code name credits semester carrera requirements corequisites pending-corequisites groups has-conflict can-enroll` |
-| `catalog` | `schema-version career-code career-name courses` |
-| `result-ok` / `result-err` | `val` / `msg` |
+- `src/models/catalog.rkt`
+  - `group-key (course-code group-number)`
+  - `group-option (number conflicts)`
+  - `course (code career credits can-enroll? pending-corequisites groups)`
+  - `catalog (schema-version career-code courses)`
+
+- `src/models/result.rkt`
+  - `result-ok (val)`
+  - `result-err (msg)`
+  - `result?`
+
+El lector procesa el JSON completo proveniente de C y aplica las validaciones
+definidas en este contrato, pero transforma al modelo de dominio únicamente
+la información requerida por las etapas posteriores.
+
+Por esta razón, campos como `nombre`, `semestre`, `requisitos`,
+`correquisitos`, `horarios` y `tieneChoque` no se almacenan en `Catalog`.
+La elegibilidad se conserva mediante `can-enroll?`, los correquisitos que
+deben matricularse simultáneamente mediante `pending-corequisites`, y los
+conflictos mediante las referencias `group-key`.
+
 
 ## 5. Casos de Prueba Mínimos
 
@@ -126,7 +139,8 @@ El módulo no usa códigos numéricos. Los estados de C se traducen al tipo `Res
 - Generar combinaciones, filtrar por créditos o exportar (KANE posteriores).
 
 ## 8. Resultado esperado (archivos generados)
-- `src/models/types.rkt`
+- `src/models/catalog.rkt`
+- `src/models/result.rkt`
 - `src/domain/validators.rkt`
 - `src/io/json_reader.rkt`
 - `src/io/catalog.rkt`
