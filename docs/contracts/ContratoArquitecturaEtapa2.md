@@ -1,9 +1,9 @@
 # Contrato maestro de arquitectura y flujo — CEmestre Etapa 2
 
-**Versión del contrato:** 1.1  
-**Etapa:** 2 — Paradigma funcional  
-**Lenguaje:** Racket 9.3 (`#lang racket`) con contratos explícitos  
-**Rol del documento:** Fuente de verdad arquitectónica para el desarrollo de la Etapa 2.  
+**Versión del contrato:** 1.1
+**Etapa:** 2 — Paradigma funcional
+**Lenguaje:** Racket 9.3 (`#lang racket`) con contratos explícitos
+**Rol del documento:** Fuente de verdad arquitectónica para el desarrollo de la Etapa 2.
 **Cambio principal de la versión 1.1:** separación física de la Etapa 2 en un repositorio independiente y adopción de Racket con contratos explícitos en lugar de Typed Racket.
 
 ---
@@ -160,21 +160,27 @@ Aunque cada ejecución procesa una sola carrera, cada curso debe conservar expl�
                        │
                        │ ruta recibida por CLI
                        ▼
-              catalog-reader.rkt
+                  catalog.rkt
+                (interfaz pública)
+                       │
+                       ▼
+                json_reader.rkt
+                (lectura, validación
+                 y transformación)
                        │
                        ▼
                     catalog
                        │
                        │
 preferencias.json      │
-        │               │
-        ▼               │
-preferences-reader.rkt  │
-        │               │
-        ▼               │
-   preferences          │
-        │               │
-        └──────┬────────┘
+        │              │
+        ▼              │
+preferences-reader.rkt │
+        │              │
+        ▼              │
+   preferences         │
+        │              │
+        └──────┬───────┘
                ▼
          candidates.rkt
                │
@@ -305,7 +311,8 @@ Los campos `requisitos`, `correquisitos` y `horarios` se conservan como parte de
 
 ## 6.4 Invariantes del catálogo de entrada
 
-El lector de catálogo debe considerar inválido un archivo que incumpla cualquiera de las siguientes reglas:
+El JSON producido por la Etapa 1 debe cumplir las siguientes invariantes de
+intercambio:
 
 - `schemaVersion` debe ser `"2.0"`;
 - `carrera.codigo` no puede estar vacío;
@@ -324,9 +331,46 @@ El lector de catálogo debe considerar inválido un archivo que incumpla cualqui
 - `tieneChoque = false` implica que `choques` está vacío;
 - las relaciones de choque producidas por C deben ser simétricas.
 
-Racket no corrige estas inconsistencias.
+Racket no corrige estas inconsistencias ni reconstruye la información de la
+Etapa 1 para intentar repararlas. El productor en C es responsable de generar
+un catálogo que cumpla este contrato.
 
 ---
+### 6.4.1 Validaciones aplicadas por el reader de Racket
+
+El contrato de intercambio anterior define las invariantes que debe cumplir el
+catálogo producido por C. Sin embargo, el reader de Etapa 2 no vuelve a
+comprobar todas las reglas que pertenecen al productor.
+
+Actualmente, la frontera de lectura de Racket valida explícitamente:
+
+1. `schemaVersion` es exactamente `"2.0"`;
+2. la raíz contiene `schemaVersion`, `carrera` con `codigo` y `nombre`, y
+   `cursos` como lista;
+3. cada curso contiene `carrera` como string no vacío;
+4. `creditos` es un entero entre 0 y 12 inclusive;
+5. cada número de grupo es un entero positivo y no se repite dentro del curso;
+6. cada referencia de `choques` apunta a un curso y grupo existentes dentro
+   del catálogo.
+
+Las demás invariantes del contrato de entrada continúan siendo responsabilidad
+de la Etapa 1 y pueden verificarse en las pruebas de integración entre etapas,
+pero Racket no recalcula ni reconstruye esa información durante la lectura.
+En particular, el reader actual no vuelve a validar:
+
+- el rango de `semestre`;
+- requisitos o correquisitos académicos;
+- el formato interno de los horarios;
+- la coincidencia entre `curso.carrera` y `carrera.codigo`;
+- unicidad global de códigos de curso;
+- consistencia entre `tieneChoque` y `choques`;
+- que un grupo no se referencie a sí mismo como choque;
+- simetría de las relaciones de choque;
+- el cálculo de `puedeMatricular`.
+
+Estas reglas no deben incorporarse a Racket de forma unilateral en una historia
+posterior. Si se decide ampliar la frontera de validación, debe actualizarse
+primero el contrato correspondiente.
 
 # 7. Contrato de preferencias del estudiante
 
@@ -337,14 +381,15 @@ La Etapa 2 utilizará JSON también para las preferencias.
 Versión inicial:
 
 ```text
-schemaVersion = "1.0"
+schemaVersion = "2.0"
 ```
 
 Ejemplo:
 
 ```json
 {
-  "schemaVersion": "1.0",
+  {
+  "schemaVersion": "2.0",
   "creditos": {
     "min": 12,
     "max": 18
@@ -385,7 +430,7 @@ significa que si `CE2201` aparece en una combinación, solamente podrá utilizar
 
 ## 7.3 Reglas de validación
 
-- `schemaVersion = "1.0"`;
+- `schemaVersion = "2.0"`;
 - `creditos.min` y `creditos.max` son enteros no negativos;
 - `creditos.min <= creditos.max`;
 - `cursosInteres` debe contener al menos un curso;
@@ -424,7 +469,26 @@ credits/c       -> entero exacto no negativo
 
 Estos contratos evitan repetir validaciones de forma inconsistente entre módulos.
 
-## 8.2 Identidad de grupo
+## 8.2 Resultado de operaciones
+
+Las operaciones de frontera que pueden fallar utilizan una representación
+explícita de éxito o error.
+
+```racket
+(struct result-ok
+  (val)
+  #:transparent)
+
+(struct result-err
+  (msg)
+  #:transparent)
+  ```
+Semántica:
+result-ok -> contiene el valor producido correctamente
+result-err -> contiene un mensaje descriptivo del error
+La definición canónica se encuentra en:
+src/models/result.rkt
+## 8.3 Identidad de grupo
 
 ```racket
 (struct group-key
@@ -447,7 +511,7 @@ Un grupo se identifica mediante el par:
 
 El número de grupo por sí solo no constituye una identidad global.
 
-## 8.3 Grupo
+## 8.4 Grupo
 
 ```racket
 (struct group-option
@@ -464,7 +528,7 @@ conflicts : (listof group-key?)
 
 Etapa 2 no necesita conservar horarios dentro del modelo de generación porque C ya produjo las relaciones de conflicto.
 
-## 8.4 Curso
+## 8.5 Curso
 
 ```racket
 (struct course
@@ -488,7 +552,7 @@ pending-corequisites   : (listof course-code/c)
 groups                 : (listof group-option?)
 ```
 
-## 8.5 Catálogo
+## 8.6 Catálogo
 
 ```racket
 (struct catalog
@@ -506,7 +570,7 @@ career-code    : career-code/c
 courses        : (listof course?)
 ```
 
-## 8.6 Preferencia de curso
+## 8.7 Preferencia de curso
 
 ```racket
 (struct course-preference
@@ -521,7 +585,7 @@ course-code    : course-code/c
 allowed-groups : (listof group-number/c)
 ```
 
-## 8.7 Preferencias
+## 8.8 Preferencias
 
 ```racket
 (struct preferences
@@ -541,7 +605,7 @@ courses     : (listof course-preference?)
 
 La relación `min-credits <= max-credits` es una **invariante de dominio** validada por el reader; no puede expresarse únicamente revisando cada campo por separado.
 
-## 8.8 Curso candidato
+## 8.9 Curso candidato
 
 Un curso candidato representa un curso de interés que:
 
@@ -569,7 +633,7 @@ pending-corequisites : (listof course-code/c)
 groups               : (listof group-option?)
 ```
 
-## 8.9 Selección
+## 8.10 Selección
 
 ```racket
 (struct selection
@@ -597,7 +661,7 @@ conflicts             : (listof group-key?)
 
 Los campos `credits`, `pending-corequisites` y `conflicts` son información interna útil durante el procesamiento y no tienen que exportarse completos a Prolog.
 
-## 8.10 Combinación
+## 8.11 Combinación
 
 ```racket
 (struct combination
@@ -1148,12 +1212,14 @@ CEmestre-Racket/
 │   │
 │   ├── models/
 │   │   ├── contracts.rkt
+│   │   ├── result.rkt
 │   │   ├── catalog.rkt
 │   │   ├── preferences.rkt
 │   │   └── combination.rkt
 │   │
 │   ├── io/
-│   │   ├── catalog-reader.rkt
+│   │   ├── catalog.rkt
+│   │   ├── json_reader.rkt
 │   │   ├── preferences-reader.rkt
 │   │   └── combination-writer.rkt
 │   │
@@ -1232,6 +1298,18 @@ credits/c
 
 No realiza I/O.
 
+## `src/models/result.rkt`
+
+**Tipo:** puro.
+
+Define la representación común de operaciones que pueden producir éxito o error:
+
+```text
+result-ok
+result-err
+result?
+```
+
 ## `src/models/catalog.rkt`
 
 **Tipo:** puro.
@@ -1287,7 +1365,9 @@ read-json
      ↓
 jsexpr
      ↓
-validación de schema e invariantes
+validaciones definidas para la frontera de Racket
+     ↓
+transformación a structs canónicos
      ↓
 catalog
 ```
@@ -1383,14 +1463,28 @@ La siguiente notación describe las fronteras que deberán reflejarse mediante `
 
 ```text
 read-catalog-json
-path-string? -> catalog?
+path-string? -> result?
 ```
 
 ```text
 read-preferences-json
-path-string? × catalog? -> preferences?
+path-string? × catalog? -> result?
 ```
+Los readers utilizan `Result` para representar errores esperados de lectura o
+validación.
 
+En caso de éxito:
+
+```text
+read-catalog-json
+→ (result-ok catalog)
+
+read-preferences-json
+→ (result-ok preferences)
+En caso de error:
+→ (result-err mensaje)
+```
+---------------------------------------------------------
 ```text
 build-candidates
 catalog? × preferences? -> (listof candidate-course?)
@@ -1485,7 +1579,7 @@ Una vez aprobados este contrato y los modelos con contratos públicos, el equipo
                         │
           ┌─────────────┼─────────────┐
           ▼             ▼             ▼
- catalog-reader   preferences-reader  stream-utils
+    catalog I/O preferences-reader  stream-utils
           │             │             │
           └──────┬──────┘             │
                  ▼                    │
@@ -1555,7 +1649,7 @@ Los módulos pueden probarse con fixtures sin esperar a que todos los demás est
 
 ```json
 {
-  "schemaVersion": "1.0",
+  "schemaVersion": "2.0",
   "creditos": {
     "min": 4,
     "max": 8
