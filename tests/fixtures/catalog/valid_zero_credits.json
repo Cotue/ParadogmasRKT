@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "2.0",
+  "carrera": { "codigo": "IC", "nombre": "Ingeniería en Computadores" },
+  "cursos": [
+    {
+      "codigo": "CE0001",
+      "nombre": "Actividad Cultural o Deportiva",
+      "carrera": "IC",
+      "creditos": 0,
+      "semestre": 1,
+      "requisitos": [],
+      "correquisitos": [],
+      "correquisitosPendientes": [],
+      "grupos": [
+        {
+          "numero": 1,
+          "horarios": [
+            { "dia": "MAR", "inicio": "13:00", "fin": "14:50" }
+          ],
+          "tieneChoque": false,
+          "choques": []
+        }
+      ],
+      "tieneChoque": false,
+      "puedeMatricular": true
+    }
+  ]
+}
