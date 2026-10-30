@@ -12,10 +12,9 @@
        boolean?)]))
 
 
-;; Determina si una identidad de grupo corresponde
-;; exactamente a una selección.
-;;
-;; Un grupo se identifica por:
+
+
+;; Un grupo se identifica por
 ;;   código de curso + número de grupo
 (define (group-key-matches-selection? key sel)
   (and
@@ -29,7 +28,7 @@
 
 
 ;; Determina si una lista de conflictos contiene
-;; la identidad de una selección específica.
+;; la identidad de una selección específica
 (define (conflicts-with-selection? conflicts sel)
   (cond
     [(null? conflicts)
@@ -47,9 +46,7 @@
 
 
 ;; Determina si dos selecciones tienen un choque
-;; explícito producido por C.
-;;
-;; Se revisan ambos sentidos como medida defensiva.
+;; explícito producido por C
 (define (selections-conflict? first-selection second-selection)
   (or
    (conflicts-with-selection?
@@ -63,7 +60,6 @@
 
 ;; Una selección candidata es compatible cuando
 ;; no entra en conflicto con ninguna selección
-;; existente en la combinación parcial.
 (define (selection-compatible? candidate existing-selections)
   (cond
     [(null? existing-selections)

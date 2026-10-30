@@ -8,9 +8,9 @@
          racket/system)
 
 
-;; ==================================================
+
 ;; Rutas
-;; ==================================================
+
 
 (define-runtime-path project-root "../..")
 
@@ -49,19 +49,7 @@
   (find-executable-path "racket"))
 
 
-;; ==================================================
-;; Helpers de ejecución
-;; ==================================================
 
-;; Ejecuta exactamente:
-;;
-;; racket src/main.rkt <args...>
-;;
-;; y devuelve:
-;;
-;; exit-code
-;; stdout
-;; stderr
 (define (run-main args)
   (define stdout-port
     (open-output-string))
@@ -125,7 +113,7 @@
 
      ;; Evita que una falla de ejecución produzca
      ;; errores secundarios intentando leer un archivo
-     ;; inexistente.
+
      (when (and (= exit-code 0)
                 (file-exists? output-path))
        (thunk
@@ -136,9 +124,7 @@
        (delete-directory/files temp-dir)))))
 
 
-;; ==================================================
-;; Helpers para validar el resultado observable
-;; ==================================================
+
 
 (define catalog-json
   (read-json-file valid-catalog-path))
@@ -221,10 +207,10 @@
        (cdr selections)))]))
 
 
-;; ==================================================
-;; TC-01
+
+
 ;; Ejecución completa con datos reales.
-;; ==================================================
+
 
 (test-case
  "Etapa 2 genera un JSON válido con catálogo y preferencias reales"
@@ -250,10 +236,9 @@
       (hash-ref output-json 'combinaciones))))))
 
 
-;; ==================================================
-;; TC-02
+
 ;; Todas las combinaciones respetan el rango.
-;; ==================================================
+
 
 (test-case
  "Todas las combinaciones están dentro del rango de créditos"
@@ -281,10 +266,9 @@
       (hash-ref output-json 'combinaciones))))))
 
 
-;; ==================================================
-;; TC-03
+
 ;; Ningún curso aparece dos veces.
-;; ==================================================
+
 
 (test-case
  "Ninguna combinación repite un curso"
@@ -342,10 +326,9 @@
       (hash-ref output-json 'combinaciones))))))
 
 
-;; ==================================================
-;; TC-05
+
 ;; Carrera conservada desde el catálogo.
-;; ==================================================
+
 
 (test-case
  "La carrera de cada selección se conserva"
@@ -375,10 +358,9 @@
       (hash-ref output-json 'combinaciones))))))
 
 
-;; ==================================================
-;; TC-06
+
 ;; Ninguna combinación posee choques.
-;; ==================================================
+
 
 (test-case
  "Ninguna combinación final contiene grupos con choque"
@@ -396,10 +378,9 @@
       (hash-ref output-json 'combinaciones))))))
 
 
-;; ==================================================
-;; TC-07
+
 ;; Correquisitos pendientes satisfechos.
-;; ==================================================
+
 
 (test-case
  "Todas las combinaciones cumplen correquisitos pendientes"
@@ -449,10 +430,9 @@
       (hash-ref output-json 'combinaciones))))))
 
 
-;; ==================================================
-;; TC-08
+
 ;; Preferencias inválidas.
-;; ==================================================
+
 
 (test-case
  "Preferencias inválidas detienen la ejecución"
@@ -493,10 +473,9 @@
     (delete-directory/files temp-dir))))
 
 
-;; ==================================================
-;; TC-09
+
 ;; Catálogo inválido.
-;; ==================================================
+
 
 (test-case
  "Catálogo inválido detiene la ejecución"
@@ -537,10 +516,9 @@
     (delete-directory/files temp-dir))))
 
 
-;; ==================================================
-;; TC-10
+
 ;; Argumentos incorrectos.
-;; ==================================================
+
 
 (test-case
  "Cantidad incorrecta de argumentos produce E2_ARGS"
@@ -559,10 +537,9 @@
    (string-append stdout stderr))))
 
 
-;; ==================================================
-;; TC-11
+
 ;; Error al escribir la salida.
-;; ==================================================
+
 
 (test-case
  "Una ruta de salida inválida produce E2_OUTPUT_IO"

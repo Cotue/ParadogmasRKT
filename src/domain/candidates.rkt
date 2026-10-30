@@ -12,9 +12,7 @@
        (listof candidate-course?))]))
 
 
-;; Busca un curso por código dentro del catálogo.
-;; Las preferencias ya fueron validadas, por lo que
-;; normalmente el curso siempre debe existir.
+;; Busca un curso por código dentro del catálogo
 (define (find-course code courses)
   (cond
     [(null? courses) #f]
@@ -26,7 +24,7 @@
                   (cdr courses))]))
 
 
-;; Busca un grupo por número dentro de un curso.
+;; Busca un grupo por número dentro de un curso
 (define (find-group number groups)
   (cond
     [(null? groups) #f]
@@ -39,10 +37,8 @@
 
 
 ;; Construye la lista de grupos siguiendo el orden
-;; indicado explícitamente en las preferencias.
-;;
-;; Se reutilizan los group-option originales para
-;; conservar sus referencias de conflictos.
+
+
 (define (allowed-groups course allowed-group-numbers)
   (cond
     [(null? allowed-group-numbers)
@@ -59,7 +55,6 @@
 
 
 ;; Convierte un curso elegible + su preferencia
-;; en el modelo canónico candidate-course.
 (define (course->candidate course preference)
   (candidate-course
    (course-code course)
@@ -71,11 +66,11 @@
     (course-preference-allowed-groups preference))))
 
 
-;; Catalog + Preferences -> CandidateCourse[]
+;; Catalog + Preferences es CandidateCourse[]
 ;;
 ;; Se recorren las preferencias, no el catálogo,
 ;; porque ellas determinan tanto los cursos de interés
-;; como el orden determinista de los resultados.
+;; como el orden determinista de los resultados
 (define (build-candidates cat prefs)
 
   (define courses

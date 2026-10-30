@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "2.0",
+  "creditos": {
+    "min": 1,
+    "max": 3
+  },
+  "cursosInteres": [
+    { "curso": "CE1101", "grupos": [1, 2, 3] },
+    { "curso": "CE1104", "grupos": [1, 2, 3, 4] },
+    { "curso": "MA1403", "grupos": [1, 2, 4, 8] },
+    { "curso": "QU1106", "grupos": [1, 2, 7] },
+    { "curso": "QU1102", "grupos": [1, 2, 31] },
+    { "curso": "CE3201", "grupos": [1, 2] },
+    { "curso": "FI1101", "grupos": [11, 13] },
+    { "curso": "FI1201", "grupos": [8, 11] }
+  ]
+}

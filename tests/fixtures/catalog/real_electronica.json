@@ -162,10 +162,6 @@
               "grupo": 5
             },
             {
-              "curso": "MA2105",
-              "grupo": 6
-            },
-            {
               "curso": "SE1101",
               "grupo": 3
             },
@@ -184,6 +180,10 @@
             {
               "curso": "SE1204",
               "grupo": 9
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 6
             },
             {
               "curso": "CM3207",
@@ -736,10 +736,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1103",
               "grupo": 3
             },
@@ -790,6 +786,10 @@
             {
               "curso": "EL3215",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -1308,10 +1308,6 @@
               "grupo": 4
             },
             {
-              "curso": "MA2105",
-              "grupo": 6
-            },
-            {
               "curso": "SE1101",
               "grupo": 2
             },
@@ -1346,6 +1342,10 @@
             {
               "curso": "EL3307",
               "grupo": 2
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 6
             },
             {
               "curso": "CM3207",
@@ -1772,10 +1772,6 @@
               "grupo": 5
             },
             {
-              "curso": "MA2105",
-              "grupo": 6
-            },
-            {
               "curso": "SE1101",
               "grupo": 3
             },
@@ -1794,6 +1790,10 @@
             {
               "curso": "SE1204",
               "grupo": 9
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 6
             },
             {
               "curso": "CM3207",
@@ -2022,10 +2022,6 @@
               "grupo": 4
             },
             {
-              "curso": "MA2105",
-              "grupo": 6
-            },
-            {
               "curso": "SE1101",
               "grupo": 2
             },
@@ -2060,6 +2056,10 @@
             {
               "curso": "EL3307",
               "grupo": 2
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 6
             },
             {
               "curso": "CM3207",
@@ -2248,10 +2248,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1103",
               "grupo": 3
             },
@@ -2302,6 +2298,10 @@
             {
               "curso": "EL3215",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -2474,10 +2474,6 @@
               "grupo": 5
             },
             {
-              "curso": "MA2105",
-              "grupo": 6
-            },
-            {
               "curso": "SE1101",
               "grupo": 3
             },
@@ -2496,6 +2492,10 @@
             {
               "curso": "SE1204",
               "grupo": 9
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 6
             },
             {
               "curso": "CM3207",
@@ -2716,10 +2716,6 @@
               "grupo": 4
             },
             {
-              "curso": "MA2105",
-              "grupo": 6
-            },
-            {
               "curso": "SE1101",
               "grupo": 2
             },
@@ -2750,6 +2746,10 @@
             {
               "curso": "EL3307",
               "grupo": 2
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 6
             },
             {
               "curso": "CS3404",
@@ -2950,14 +2950,6 @@
               "grupo": 8
             },
             {
-              "curso": "MA2105",
-              "grupo": 5
-            },
-            {
-              "curso": "MA2105",
-              "grupo": 2
-            },
-            {
               "curso": "SE1103",
               "grupo": 5
             },
@@ -2968,6 +2960,14 @@
             {
               "curso": "SE1204",
               "grupo": 6
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 5
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 2
             },
             {
               "curso": "EL4513",
@@ -3188,14 +3188,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 1
-            },
-            {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1102",
               "grupo": 2
             },
@@ -3254,6 +3246,14 @@
             {
               "curso": "EL3307",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -3422,10 +3422,6 @@
               "grupo": 5
             },
             {
-              "curso": "MA2105",
-              "grupo": 6
-            },
-            {
               "curso": "SE1101",
               "grupo": 3
             },
@@ -3444,6 +3440,10 @@
             {
               "curso": "SE1204",
               "grupo": 9
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 6
             },
             {
               "curso": "CM3207",
@@ -3628,10 +3628,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1103",
               "grupo": 3
             },
@@ -3682,6 +3678,10 @@
             {
               "curso": "EL3215",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -3988,10 +3988,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1103",
               "grupo": 3
             },
@@ -4042,6 +4038,10 @@
             {
               "curso": "EL3215",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -4278,10 +4278,6 @@
               "grupo": 4
             },
             {
-              "curso": "MA2105",
-              "grupo": 6
-            },
-            {
               "curso": "SE1101",
               "grupo": 2
             },
@@ -4312,6 +4308,10 @@
             {
               "curso": "EL3307",
               "grupo": 2
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 6
             },
             {
               "curso": "CS3404",
@@ -4770,10 +4770,6 @@
               "grupo": 6
             },
             {
-              "curso": "MA2105",
-              "grupo": 7
-            },
-            {
               "curso": "SE1104",
               "grupo": 3
             },
@@ -4828,6 +4824,10 @@
             {
               "curso": "EL3212",
               "grupo": 2
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 7
             },
             {
               "curso": "CS3404",
@@ -5048,14 +5048,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 1
-            },
-            {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1102",
               "grupo": 2
             },
@@ -5110,6 +5102,14 @@
             {
               "curso": "EL3307",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -5306,10 +5306,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1103",
               "grupo": 3
             },
@@ -5360,6 +5356,10 @@
             {
               "curso": "EL3215",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -5846,10 +5846,6 @@
               "grupo": 6
             },
             {
-              "curso": "MA2105",
-              "grupo": 7
-            },
-            {
               "curso": "SE1103",
               "grupo": 4
             },
@@ -5896,6 +5892,10 @@
             {
               "curso": "EL3212",
               "grupo": 2
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 7
             },
             {
               "curso": "CS3404",
@@ -6371,14 +6371,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 1
-            },
-            {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1102",
               "grupo": 2
             },
@@ -6433,6 +6425,14 @@
             {
               "curso": "EL3307",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -6613,10 +6613,6 @@
               "grupo": 9
             },
             {
-              "curso": "MA2105",
-              "grupo": 5
-            },
-            {
               "curso": "SE1101",
               "grupo": 4
             },
@@ -6631,6 +6627,10 @@
             {
               "curso": "SE1204",
               "grupo": 7
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 5
             },
             {
               "curso": "PI5516",
@@ -7037,10 +7037,6 @@
               "grupo": 9
             },
             {
-              "curso": "MA2105",
-              "grupo": 5
-            },
-            {
               "curso": "SE1101",
               "grupo": 4
             },
@@ -7055,6 +7051,10 @@
             {
               "curso": "SE1204",
               "grupo": 7
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 5
             },
             {
               "curso": "PI5516",
@@ -7283,14 +7283,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 1
-            },
-            {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1103",
               "grupo": 3
             },
@@ -7325,6 +7317,14 @@
             {
               "curso": "EL3307",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -7981,10 +7981,6 @@
               "grupo": 9
             },
             {
-              "curso": "MA2105",
-              "grupo": 5
-            },
-            {
               "curso": "SE1101",
               "grupo": 4
             },
@@ -7999,6 +7995,10 @@
             {
               "curso": "SE1204",
               "grupo": 7
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 5
             },
             {
               "curso": "EL4513",
@@ -8203,10 +8203,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1103",
               "grupo": 3
             },
@@ -8257,6 +8253,10 @@
             {
               "curso": "EL3215",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -8401,10 +8401,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 1
-            },
-            {
               "curso": "SE1102",
               "grupo": 2
             },
@@ -8434,6 +8430,10 @@
             },
             {
               "curso": "EL3307",
+              "grupo": 1
+            },
+            {
+              "curso": "MA2105",
               "grupo": 1
             },
             {
@@ -9113,16 +9113,16 @@
               "grupo": 8
             },
             {
-              "curso": "MA2105",
-              "grupo": 2
-            },
-            {
               "curso": "SE1104",
               "grupo": 4
             },
             {
               "curso": "SE1204",
               "grupo": 6
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 2
             },
             {
               "curso": "EL4703",
@@ -9563,10 +9563,6 @@
               "grupo": 9
             },
             {
-              "curso": "MA2105",
-              "grupo": 5
-            },
-            {
               "curso": "SE1101",
               "grupo": 4
             },
@@ -9577,6 +9573,10 @@
             {
               "curso": "SE1204",
               "grupo": 7
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 5
             },
             {
               "curso": "EL4513",
@@ -9720,10 +9720,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1104",
               "grupo": 1
             },
@@ -9750,6 +9746,10 @@
             {
               "curso": "SE1221",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -10296,10 +10296,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1103",
               "grupo": 3
             },
@@ -10322,6 +10318,10 @@
             {
               "curso": "EL3215",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -10482,11 +10482,11 @@
               "grupo": 9
             },
             {
-              "curso": "MA2105",
+              "curso": "SE1103",
               "grupo": 5
             },
             {
-              "curso": "SE1103",
+              "curso": "MA2105",
               "grupo": 5
             },
             {
@@ -10800,10 +10800,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1104",
               "grupo": 1
             },
@@ -10830,6 +10826,10 @@
             {
               "curso": "SE1221",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -11118,10 +11118,6 @@
               "grupo": 4
             },
             {
-              "curso": "MA2105",
-              "grupo": 6
-            },
-            {
               "curso": "SE1101",
               "grupo": 2
             },
@@ -11144,6 +11140,10 @@
             {
               "curso": "EL3307",
               "grupo": 2
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 6
             },
             {
               "curso": "CM3207",
@@ -11549,10 +11549,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1104",
               "grupo": 1
             },
@@ -11579,6 +11575,10 @@
             {
               "curso": "SE1221",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -11730,10 +11730,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1103",
               "grupo": 3
             },
@@ -11756,6 +11752,10 @@
             {
               "curso": "EL3215",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -12069,10 +12069,6 @@
               "grupo": 6
             },
             {
-              "curso": "MA2105",
-              "grupo": 7
-            },
-            {
               "curso": "SE1201",
               "grupo": 2
             },
@@ -12091,6 +12087,10 @@
             {
               "curso": "EL3212",
               "grupo": 2
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 7
             },
             {
               "curso": "CM3207",
@@ -12509,16 +12509,16 @@
               "grupo": 8
             },
             {
-              "curso": "MA2105",
-              "grupo": 2
-            },
-            {
               "curso": "SE1104",
               "grupo": 4
             },
             {
               "curso": "SE1204",
               "grupo": 6
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 2
             },
             {
               "curso": "EL4703",
@@ -13232,10 +13232,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1103",
               "grupo": 3
             },
@@ -13286,6 +13282,10 @@
             {
               "curso": "EL3215",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -13503,10 +13503,6 @@
               "grupo": 5
             },
             {
-              "curso": "MA2105",
-              "grupo": 6
-            },
-            {
               "curso": "SE1101",
               "grupo": 3
             },
@@ -13525,6 +13521,10 @@
             {
               "curso": "SE1204",
               "grupo": 9
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 6
             },
             {
               "curso": "CM3207",
@@ -13855,10 +13855,6 @@
               "grupo": 6
             },
             {
-              "curso": "MA2105",
-              "grupo": 7
-            },
-            {
               "curso": "SE1104",
               "grupo": 3
             },
@@ -13913,6 +13909,10 @@
             {
               "curso": "EL3212",
               "grupo": 2
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 7
             },
             {
               "curso": "CS3404",
@@ -14121,10 +14121,6 @@
               "grupo": 6
             },
             {
-              "curso": "MA2105",
-              "grupo": 7
-            },
-            {
               "curso": "SE1103",
               "grupo": 4
             },
@@ -14171,6 +14167,10 @@
             {
               "curso": "EL3212",
               "grupo": 2
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 7
             },
             {
               "curso": "CS3404",
@@ -14819,10 +14819,6 @@
               "grupo": 4
             },
             {
-              "curso": "MA2105",
-              "grupo": 6
-            },
-            {
               "curso": "SE1101",
               "grupo": 2
             },
@@ -14849,6 +14845,10 @@
             {
               "curso": "EL3307",
               "grupo": 2
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 6
             },
             {
               "curso": "CS3404",
@@ -15005,10 +15005,6 @@
               "grupo": 5
             },
             {
-              "curso": "MA2105",
-              "grupo": 6
-            },
-            {
               "curso": "SE1101",
               "grupo": 3
             },
@@ -15027,6 +15023,10 @@
             {
               "curso": "SE1204",
               "grupo": 9
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 6
             },
             {
               "curso": "CM3207",
@@ -15429,10 +15429,6 @@
               "grupo": 9
             },
             {
-              "curso": "MA2105",
-              "grupo": 5
-            },
-            {
               "curso": "SE1101",
               "grupo": 4
             },
@@ -15447,6 +15443,10 @@
             {
               "curso": "SE1204",
               "grupo": 7
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 5
             },
             {
               "curso": "PI5516",
@@ -15675,14 +15675,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 1
-            },
-            {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1102",
               "grupo": 2
             },
@@ -15737,6 +15729,14 @@
             {
               "curso": "EL3307",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -15953,10 +15953,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1103",
               "grupo": 3
             },
@@ -16007,6 +16003,10 @@
             {
               "curso": "EL3215",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -16275,10 +16275,6 @@
               "grupo": 4
             },
             {
-              "curso": "MA2105",
-              "grupo": 6
-            },
-            {
               "curso": "SE1101",
               "grupo": 2
             },
@@ -16317,6 +16313,10 @@
             {
               "curso": "EL3307",
               "grupo": 2
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 6
             },
             {
               "curso": "CM3207",
@@ -16517,14 +16517,6 @@
               "grupo": 8
             },
             {
-              "curso": "MA2105",
-              "grupo": 5
-            },
-            {
-              "curso": "MA2105",
-              "grupo": 2
-            },
-            {
               "curso": "SE1101",
               "grupo": 4
             },
@@ -16543,6 +16535,14 @@
             {
               "curso": "SE1204",
               "grupo": 7
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 5
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 2
             },
             {
               "curso": "EL4513",
@@ -16779,14 +16779,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 1
-            },
-            {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1102",
               "grupo": 2
             },
@@ -16845,6 +16837,14 @@
             {
               "curso": "EL3307",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -17037,10 +17037,6 @@
               "grupo": 9
             },
             {
-              "curso": "MA2105",
-              "grupo": 5
-            },
-            {
               "curso": "SE1101",
               "grupo": 4
             },
@@ -17059,6 +17055,10 @@
             {
               "curso": "SE1204",
               "grupo": 7
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 5
             },
             {
               "curso": "CS3404",
@@ -17263,14 +17263,6 @@
               "grupo": 8
             },
             {
-              "curso": "MA2105",
-              "grupo": 5
-            },
-            {
-              "curso": "MA2105",
-              "grupo": 2
-            },
-            {
               "curso": "SE1101",
               "grupo": 4
             },
@@ -17289,6 +17281,14 @@
             {
               "curso": "SE1204",
               "grupo": 7
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 5
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 2
             },
             {
               "curso": "EL4513",
@@ -17457,10 +17457,6 @@
               "grupo": 5
             },
             {
-              "curso": "MA2105",
-              "grupo": 6
-            },
-            {
               "curso": "SE1101",
               "grupo": 3
             },
@@ -17471,6 +17467,10 @@
             {
               "curso": "SE1204",
               "grupo": 3
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 6
             },
             {
               "curso": "CM3207",
@@ -18012,14 +18012,6 @@
               "grupo": 8
             },
             {
-              "curso": "MA2105",
-              "grupo": 5
-            },
-            {
-              "curso": "MA2105",
-              "grupo": 2
-            },
-            {
               "curso": "SE1101",
               "grupo": 4
             },
@@ -18038,6 +18030,14 @@
             {
               "curso": "SE1204",
               "grupo": 7
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 5
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 2
             },
             {
               "curso": "EL4513",
@@ -18261,14 +18261,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 1
-            },
-            {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1102",
               "grupo": 2
             },
@@ -18319,6 +18311,14 @@
             {
               "curso": "EL3307",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -18478,10 +18478,6 @@
               "grupo": 5
             },
             {
-              "curso": "MA2105",
-              "grupo": 6
-            },
-            {
               "curso": "SE1101",
               "grupo": 3
             },
@@ -18492,6 +18488,10 @@
             {
               "curso": "SE1204",
               "grupo": 3
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 6
             },
             {
               "curso": "CM3207",
@@ -19011,10 +19011,6 @@
               "grupo": 6
             },
             {
-              "curso": "MA2105",
-              "grupo": 7
-            },
-            {
               "curso": "SE1104",
               "grupo": 3
             },
@@ -19061,6 +19057,10 @@
             {
               "curso": "EL3212",
               "grupo": 2
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 7
             },
             {
               "curso": "CS3404",
@@ -19248,14 +19248,6 @@
               "grupo": 8
             },
             {
-              "curso": "MA2105",
-              "grupo": 5
-            },
-            {
-              "curso": "MA2105",
-              "grupo": 2
-            },
-            {
               "curso": "SE1101",
               "grupo": 4
             },
@@ -19274,6 +19266,14 @@
             {
               "curso": "SE1204",
               "grupo": 7
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 5
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 2
             },
             {
               "curso": "EL4513",
@@ -19730,10 +19730,6 @@
               "grupo": 6
             },
             {
-              "curso": "MA2105",
-              "grupo": 7
-            },
-            {
               "curso": "SE1104",
               "grupo": 3
             },
@@ -19780,6 +19776,10 @@
             {
               "curso": "EL3212",
               "grupo": 2
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 7
             },
             {
               "curso": "CS3404",
@@ -20172,16 +20172,16 @@
               "grupo": 8
             },
             {
+              "curso": "SE1103",
+              "grupo": 5
+            },
+            {
               "curso": "MA2105",
               "grupo": 5
             },
             {
               "curso": "MA2105",
               "grupo": 2
-            },
-            {
-              "curso": "SE1103",
-              "grupo": 5
             },
             {
               "curso": "EL4513",
@@ -20775,10 +20775,6 @@
               "grupo": 5
             },
             {
-              "curso": "MA2105",
-              "grupo": 6
-            },
-            {
               "curso": "SE1101",
               "grupo": 3
             },
@@ -20797,6 +20793,10 @@
             {
               "curso": "SE1204",
               "grupo": 9
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 6
             },
             {
               "curso": "CM3207",
@@ -20925,10 +20925,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 1
-            },
-            {
               "curso": "SE1102",
               "grupo": 2
             },
@@ -20958,6 +20954,10 @@
             },
             {
               "curso": "EL3307",
+              "grupo": 1
+            },
+            {
+              "curso": "MA2105",
               "grupo": 1
             },
             {
@@ -21075,10 +21075,6 @@
               "grupo": 6
             },
             {
-              "curso": "MA2105",
-              "grupo": 7
-            },
-            {
               "curso": "SE1201",
               "grupo": 2
             },
@@ -21105,6 +21101,10 @@
             {
               "curso": "EL3212",
               "grupo": 2
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 7
             },
             {
               "curso": "CM3207",
@@ -21955,10 +21955,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1103",
               "grupo": 3
             },
@@ -22009,6 +22005,10 @@
             {
               "curso": "EL3215",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -22561,16 +22561,16 @@
               "grupo": 8
             },
             {
-              "curso": "MA2105",
-              "grupo": 2
-            },
-            {
               "curso": "SE1104",
               "grupo": 4
             },
             {
               "curso": "SE1204",
               "grupo": 6
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 2
             },
             {
               "curso": "EL4703",
@@ -22711,10 +22711,6 @@
               "grupo": 9
             },
             {
-              "curso": "MA2105",
-              "grupo": 5
-            },
-            {
               "curso": "SE1101",
               "grupo": 4
             },
@@ -22729,6 +22725,10 @@
             {
               "curso": "SE1204",
               "grupo": 7
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 5
             },
             {
               "curso": "EL4513",
@@ -22929,10 +22929,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1103",
               "grupo": 3
             },
@@ -22983,6 +22979,10 @@
             {
               "curso": "EL3215",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -23385,10 +23385,6 @@
               "grupo": 9
             },
             {
-              "curso": "MA2105",
-              "grupo": 5
-            },
-            {
               "curso": "SE1101",
               "grupo": 4
             },
@@ -23403,6 +23399,10 @@
             {
               "curso": "SE1204",
               "grupo": 7
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 5
             },
             {
               "curso": "EL4513",
@@ -23527,10 +23527,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 1
-            },
-            {
               "curso": "SE1102",
               "grupo": 2
             },
@@ -23560,6 +23556,10 @@
             },
             {
               "curso": "EL3307",
+              "grupo": 1
+            },
+            {
+              "curso": "MA2105",
               "grupo": 1
             },
             {
@@ -23769,10 +23769,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1103",
               "grupo": 3
             },
@@ -23823,6 +23819,10 @@
             {
               "curso": "EL3215",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -23951,10 +23951,6 @@
               "grupo": 6
             },
             {
-              "curso": "MA2105",
-              "grupo": 7
-            },
-            {
               "curso": "SE1201",
               "grupo": 2
             },
@@ -23981,6 +23977,10 @@
             {
               "curso": "EL3212",
               "grupo": 2
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 7
             },
             {
               "curso": "CM3207",
@@ -24355,16 +24355,16 @@
               "grupo": 8
             },
             {
-              "curso": "MA2105",
-              "grupo": 2
-            },
-            {
               "curso": "SE1104",
               "grupo": 4
             },
             {
               "curso": "SE1204",
               "grupo": 6
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 2
             },
             {
               "curso": "EL4703",
@@ -24465,10 +24465,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 1
-            },
-            {
               "curso": "SE1201",
               "grupo": 4
             },
@@ -24478,6 +24474,10 @@
             },
             {
               "curso": "EL3307",
+              "grupo": 1
+            },
+            {
+              "curso": "MA2105",
               "grupo": 1
             },
             {
@@ -24622,10 +24622,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1103",
               "grupo": 3
             },
@@ -24648,6 +24644,10 @@
             {
               "curso": "EL3215",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -24755,10 +24755,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 1
-            },
-            {
               "curso": "SE1102",
               "grupo": 2
             },
@@ -24780,6 +24776,10 @@
             },
             {
               "curso": "EL3307",
+              "grupo": 1
+            },
+            {
+              "curso": "MA2105",
               "grupo": 1
             },
             {
@@ -24868,11 +24868,11 @@
               "grupo": 9
             },
             {
-              "curso": "MA2105",
+              "curso": "SE1103",
               "grupo": 5
             },
             {
-              "curso": "SE1103",
+              "curso": "MA2105",
               "grupo": 5
             },
             {
@@ -25327,10 +25327,6 @@
               "grupo": 5
             },
             {
-              "curso": "MA2105",
-              "grupo": 6
-            },
-            {
               "curso": "SE1101",
               "grupo": 3
             },
@@ -25341,6 +25337,10 @@
             {
               "curso": "SE1204",
               "grupo": 3
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 6
             },
             {
               "curso": "CM3207",
@@ -25585,16 +25585,16 @@
               "grupo": 5
             },
             {
-              "curso": "MA2105",
-              "grupo": 6
-            },
-            {
               "curso": "SE1105",
               "grupo": 6
             },
             {
               "curso": "SE1204",
               "grupo": 9
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 6
             },
             {
               "curso": "EL3310",
@@ -25879,10 +25879,6 @@
               "grupo": 9
             },
             {
-              "curso": "MA2105",
-              "grupo": 5
-            },
-            {
               "curso": "SE1101",
               "grupo": 4
             },
@@ -25893,6 +25889,10 @@
             {
               "curso": "SE1204",
               "grupo": 7
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 5
             },
             {
               "curso": "EL4513",
@@ -25988,10 +25988,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 1
-            },
-            {
               "curso": "SE1102",
               "grupo": 2
             },
@@ -26013,6 +26009,10 @@
             },
             {
               "curso": "EL3307",
+              "grupo": 1
+            },
+            {
+              "curso": "MA2105",
               "grupo": 1
             },
             {
@@ -26101,10 +26101,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 1
-            },
-            {
               "curso": "SE1201",
               "grupo": 4
             },
@@ -26114,6 +26110,10 @@
             },
             {
               "curso": "EL3307",
+              "grupo": 1
+            },
+            {
+              "curso": "MA2105",
               "grupo": 1
             },
             {
@@ -26258,10 +26258,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1103",
               "grupo": 3
             },
@@ -26284,6 +26280,10 @@
             {
               "curso": "EL3215",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -26391,10 +26391,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 1
-            },
-            {
               "curso": "SE1102",
               "grupo": 2
             },
@@ -26416,6 +26412,10 @@
             },
             {
               "curso": "EL3307",
+              "grupo": 1
+            },
+            {
+              "curso": "MA2105",
               "grupo": 1
             },
             {
@@ -26564,10 +26564,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1104",
               "grupo": 1
             },
@@ -26594,6 +26590,10 @@
             {
               "curso": "SE1221",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -27019,10 +27019,6 @@
               "grupo": 5
             },
             {
-              "curso": "MA2105",
-              "grupo": 6
-            },
-            {
               "curso": "SE1101",
               "grupo": 3
             },
@@ -27033,6 +27029,10 @@
             {
               "curso": "SE1204",
               "grupo": 3
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 6
             },
             {
               "curso": "CM3207",
@@ -27120,10 +27120,6 @@
               "grupo": 6
             },
             {
-              "curso": "MA2105",
-              "grupo": 7
-            },
-            {
               "curso": "SE1201",
               "grupo": 2
             },
@@ -27142,6 +27138,10 @@
             {
               "curso": "EL3212",
               "grupo": 2
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 7
             },
             {
               "curso": "CM3207",
@@ -27390,10 +27390,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1104",
               "grupo": 1
             },
@@ -27420,6 +27416,10 @@
             {
               "curso": "SE1221",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -27499,10 +27499,6 @@
               "grupo": 6
             },
             {
-              "curso": "MA2105",
-              "grupo": 7
-            },
-            {
               "curso": "SE1206",
               "grupo": 4
             },
@@ -27513,6 +27509,10 @@
             {
               "curso": "EL3212",
               "grupo": 2
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 7
             },
             {
               "curso": "CM3207",
@@ -27818,11 +27818,11 @@
               "grupo": 9
             },
             {
-              "curso": "MA2105",
+              "curso": "SE1103",
               "grupo": 5
             },
             {
-              "curso": "SE1103",
+              "curso": "MA2105",
               "grupo": 5
             },
             {
@@ -28181,16 +28181,16 @@
               "grupo": 8
             },
             {
-              "curso": "MA2105",
-              "grupo": 2
-            },
-            {
               "curso": "SE1104",
               "grupo": 4
             },
             {
               "curso": "SE1204",
               "grupo": 6
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 2
             },
             {
               "curso": "EL4703",
@@ -28572,16 +28572,16 @@
               "grupo": 8
             },
             {
-              "curso": "MA2105",
-              "grupo": 2
-            },
-            {
               "curso": "SE1104",
               "grupo": 4
             },
             {
               "curso": "SE1204",
               "grupo": 6
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 2
             },
             {
               "curso": "EL4703",
@@ -28697,10 +28697,6 @@
               "grupo": 9
             },
             {
-              "curso": "MA2105",
-              "grupo": 5
-            },
-            {
               "curso": "SE1101",
               "grupo": 4
             },
@@ -28711,6 +28707,10 @@
             {
               "curso": "SE1204",
               "grupo": 7
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 5
             },
             {
               "curso": "EL4513",
@@ -28854,10 +28854,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1104",
               "grupo": 1
             },
@@ -28884,6 +28880,10 @@
             {
               "curso": "SE1221",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -29108,10 +29108,6 @@
               "grupo": 6
             },
             {
-              "curso": "MA2105",
-              "grupo": 7
-            },
-            {
               "curso": "SE1201",
               "grupo": 2
             },
@@ -29130,6 +29126,10 @@
             {
               "curso": "EL3212",
               "grupo": 2
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 7
             },
             {
               "curso": "CM3207",
@@ -29382,10 +29382,6 @@
               "grupo": 6
             },
             {
-              "curso": "MA2105",
-              "grupo": 7
-            },
-            {
               "curso": "SE1201",
               "grupo": 2
             },
@@ -29404,6 +29400,10 @@
             {
               "curso": "EL3212",
               "grupo": 2
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 7
             },
             {
               "curso": "CM3207",
@@ -29503,16 +29503,16 @@
               "grupo": 8
             },
             {
-              "curso": "MA2105",
-              "grupo": 2
-            },
-            {
               "curso": "SE1104",
               "grupo": 4
             },
             {
               "curso": "SE1204",
               "grupo": 6
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 2
             },
             {
               "curso": "EL4703",
@@ -29874,10 +29874,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1103",
               "grupo": 3
             },
@@ -29900,6 +29896,10 @@
             {
               "curso": "EL3215",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -30241,10 +30241,6 @@
               "grupo": 6
             },
             {
-              "curso": "MA2105",
-              "grupo": 7
-            },
-            {
               "curso": "SE1206",
               "grupo": 4
             },
@@ -30255,6 +30251,10 @@
             {
               "curso": "EL3212",
               "grupo": 2
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 7
             },
             {
               "curso": "CM3207",
@@ -30560,10 +30560,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 1
-            },
-            {
               "curso": "SE1201",
               "grupo": 4
             },
@@ -30573,6 +30569,10 @@
             },
             {
               "curso": "EL3307",
+              "grupo": 1
+            },
+            {
+              "curso": "MA2105",
               "grupo": 1
             },
             {
@@ -30818,16 +30818,16 @@
               "grupo": 5
             },
             {
-              "curso": "MA2105",
-              "grupo": 6
-            },
-            {
               "curso": "SE1105",
               "grupo": 6
             },
             {
               "curso": "SE1204",
               "grupo": 9
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 6
             },
             {
               "curso": "EL3310",
@@ -31197,16 +31197,16 @@
               "grupo": 5
             },
             {
-              "curso": "MA2105",
-              "grupo": 6
-            },
-            {
               "curso": "SE1105",
               "grupo": 6
             },
             {
               "curso": "SE1204",
               "grupo": 9
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 6
             },
             {
               "curso": "EL3310",
@@ -31483,14 +31483,6 @@
               "grupo": 8
             },
             {
-              "curso": "MA2105",
-              "grupo": 5
-            },
-            {
-              "curso": "MA2105",
-              "grupo": 2
-            },
-            {
               "curso": "SE1101",
               "grupo": 4
             },
@@ -31509,6 +31501,14 @@
             {
               "curso": "SE1204",
               "grupo": 7
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 5
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 2
             },
             {
               "curso": "EL4513",
@@ -31658,10 +31658,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 1
-            },
-            {
               "curso": "SE1201",
               "grupo": 4
             },
@@ -31683,6 +31679,10 @@
             },
             {
               "curso": "EL3307",
+              "grupo": 1
+            },
+            {
+              "curso": "MA2105",
               "grupo": 1
             },
             {
@@ -31880,10 +31880,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1101",
               "grupo": 1
             },
@@ -31926,6 +31922,10 @@
             {
               "curso": "EL3215",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -32114,10 +32114,6 @@
               "grupo": 5
             },
             {
-              "curso": "MA2105",
-              "grupo": 6
-            },
-            {
               "curso": "SE1101",
               "grupo": 3
             },
@@ -32136,6 +32132,10 @@
             {
               "curso": "SE1204",
               "grupo": 9
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 6
             },
             {
               "curso": "CM3207",
@@ -32272,16 +32272,16 @@
               "grupo": 8
             },
             {
-              "curso": "MA2105",
-              "grupo": 2
-            },
-            {
               "curso": "SE1104",
               "grupo": 4
             },
             {
               "curso": "SE1204",
               "grupo": 6
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 2
             },
             {
               "curso": "EL4703",
@@ -32737,10 +32737,6 @@
               "grupo": 4
             },
             {
-              "curso": "MA2105",
-              "grupo": 6
-            },
-            {
               "curso": "SE1101",
               "grupo": 2
             },
@@ -32767,6 +32763,10 @@
             {
               "curso": "EL3307",
               "grupo": 2
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 6
             },
             {
               "curso": "CM3207",
@@ -32978,10 +32978,6 @@
               "grupo": 6
             },
             {
-              "curso": "MA2105",
-              "grupo": 7
-            },
-            {
               "curso": "SE1104",
               "grupo": 3
             },
@@ -33028,6 +33024,10 @@
             {
               "curso": "EL3212",
               "grupo": 2
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 7
             },
             {
               "curso": "CS3404",
@@ -33497,10 +33497,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1104",
               "grupo": 1
             },
@@ -33527,6 +33523,10 @@
             {
               "curso": "SE1221",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -33750,14 +33750,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 1
-            },
-            {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1102",
               "grupo": 2
             },
@@ -33808,6 +33800,14 @@
             {
               "curso": "EL3307",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -34224,14 +34224,6 @@
               "grupo": 8
             },
             {
-              "curso": "MA2105",
-              "grupo": 5
-            },
-            {
-              "curso": "MA2105",
-              "grupo": 2
-            },
-            {
               "curso": "SE1101",
               "grupo": 4
             },
@@ -34250,6 +34242,14 @@
             {
               "curso": "SE1204",
               "grupo": 7
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 5
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 2
             },
             {
               "curso": "EL4513",
@@ -34421,10 +34421,6 @@
               "grupo": 6
             },
             {
-              "curso": "MA2105",
-              "grupo": 7
-            },
-            {
               "curso": "SE1103",
               "grupo": 4
             },
@@ -34455,6 +34451,10 @@
             {
               "curso": "EL3212",
               "grupo": 2
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 7
             },
             {
               "curso": "CS3404",
@@ -34720,10 +34720,6 @@
               "grupo": 5
             },
             {
-              "curso": "MA2105",
-              "grupo": 6
-            },
-            {
               "curso": "SE1101",
               "grupo": 3
             },
@@ -34734,6 +34730,10 @@
             {
               "curso": "SE1204",
               "grupo": 3
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 6
             },
             {
               "curso": "CM3207",
@@ -35236,10 +35236,6 @@
               "grupo": 9
             },
             {
-              "curso": "MA2105",
-              "grupo": 5
-            },
-            {
               "curso": "SE1101",
               "grupo": 4
             },
@@ -35250,6 +35246,10 @@
             {
               "curso": "SE1204",
               "grupo": 7
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 5
             },
             {
               "curso": "EL4513",
@@ -35357,16 +35357,16 @@
               "grupo": 8
             },
             {
-              "curso": "MA2105",
-              "grupo": 2
-            },
-            {
               "curso": "SE1104",
               "grupo": 4
             },
             {
               "curso": "SE1204",
               "grupo": 6
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 2
             },
             {
               "curso": "EL4703",
@@ -36278,10 +36278,6 @@
               "grupo": 9
             },
             {
-              "curso": "MA2105",
-              "grupo": 5
-            },
-            {
               "curso": "SE1101",
               "grupo": 4
             },
@@ -36296,6 +36292,10 @@
             {
               "curso": "SE1204",
               "grupo": 7
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 5
             },
             {
               "curso": "EL4513",
@@ -36674,10 +36674,6 @@
               "grupo": 5
             },
             {
-              "curso": "MA2105",
-              "grupo": 6
-            },
-            {
               "curso": "SE1101",
               "grupo": 3
             },
@@ -36696,6 +36692,10 @@
             {
               "curso": "SE1204",
               "grupo": 9
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 6
             },
             {
               "curso": "CM3207",
@@ -36832,16 +36832,16 @@
               "grupo": 8
             },
             {
-              "curso": "MA2105",
-              "grupo": 2
-            },
-            {
               "curso": "SE1104",
               "grupo": 4
             },
             {
               "curso": "SE1204",
               "grupo": 6
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 2
             },
             {
               "curso": "EL4703",
@@ -36970,10 +36970,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 1
-            },
-            {
               "curso": "SE1102",
               "grupo": 2
             },
@@ -37003,6 +36999,10 @@
             },
             {
               "curso": "EL3307",
+              "grupo": 1
+            },
+            {
+              "curso": "MA2105",
               "grupo": 1
             },
             {
@@ -37536,10 +37536,6 @@
               "grupo": 6
             },
             {
-              "curso": "MA2105",
-              "grupo": 7
-            },
-            {
               "curso": "SE1201",
               "grupo": 2
             },
@@ -37566,6 +37562,10 @@
             {
               "curso": "EL3212",
               "grupo": 2
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 7
             },
             {
               "curso": "CM3207",
@@ -38020,10 +38020,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1103",
               "grupo": 3
             },
@@ -38074,6 +38070,10 @@
             {
               "curso": "EL3215",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -38500,10 +38500,6 @@
               "grupo": 5
             },
             {
-              "curso": "MA2105",
-              "grupo": 6
-            },
-            {
               "curso": "SE1101",
               "grupo": 3
             },
@@ -38522,6 +38518,10 @@
             {
               "curso": "SE1204",
               "grupo": 9
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 6
             },
             {
               "curso": "CM3207",
@@ -38860,10 +38860,6 @@
               "grupo": 9
             },
             {
-              "curso": "MA2105",
-              "grupo": 5
-            },
-            {
               "curso": "SE1101",
               "grupo": 4
             },
@@ -38874,6 +38870,10 @@
             {
               "curso": "SE1204",
               "grupo": 7
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 5
             },
             {
               "curso": "EL4513",
@@ -39174,10 +39174,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1104",
               "grupo": 1
             },
@@ -39204,6 +39200,10 @@
             {
               "curso": "SE1221",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -39967,10 +39967,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1103",
               "grupo": 3
             },
@@ -39993,6 +39989,10 @@
             {
               "curso": "EL3215",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -40144,10 +40144,6 @@
               "grupo": 5
             },
             {
-              "curso": "MA2105",
-              "grupo": 6
-            },
-            {
               "curso": "SE1101",
               "grupo": 3
             },
@@ -40158,6 +40154,10 @@
             {
               "curso": "SE1204",
               "grupo": 3
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 6
             },
             {
               "curso": "CM3207",
@@ -40370,10 +40370,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 1
-            },
-            {
               "curso": "SE1102",
               "grupo": 2
             },
@@ -40395,6 +40391,10 @@
             },
             {
               "curso": "EL3307",
+              "grupo": 1
+            },
+            {
+              "curso": "MA2105",
               "grupo": 1
             },
             {
@@ -40707,10 +40707,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 1
-            },
-            {
               "curso": "SE1102",
               "grupo": 2
             },
@@ -40740,6 +40736,10 @@
             },
             {
               "curso": "EL3307",
+              "grupo": 1
+            },
+            {
+              "curso": "MA2105",
               "grupo": 1
             },
             {
@@ -40979,10 +40979,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 1
-            },
-            {
               "curso": "SE1102",
               "grupo": 2
             },
@@ -41012,6 +41008,10 @@
             },
             {
               "curso": "EL3307",
+              "grupo": 1
+            },
+            {
+              "curso": "MA2105",
               "grupo": 1
             },
             {
@@ -41165,10 +41165,6 @@
               "grupo": 9
             },
             {
-              "curso": "MA2105",
-              "grupo": 5
-            },
-            {
               "curso": "SE1101",
               "grupo": 4
             },
@@ -41183,6 +41179,10 @@
             {
               "curso": "SE1204",
               "grupo": 7
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 5
             },
             {
               "curso": "EL4513",
@@ -41537,10 +41537,6 @@
               "grupo": 5
             },
             {
-              "curso": "MA2105",
-              "grupo": 6
-            },
-            {
               "curso": "SE1101",
               "grupo": 3
             },
@@ -41559,6 +41555,10 @@
             {
               "curso": "SE1204",
               "grupo": 9
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 6
             },
             {
               "curso": "CM3207",
@@ -42017,10 +42017,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1103",
               "grupo": 3
             },
@@ -42071,6 +42067,10 @@
             {
               "curso": "EL3215",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -42219,16 +42219,16 @@
               "grupo": 8
             },
             {
-              "curso": "MA2105",
-              "grupo": 2
-            },
-            {
               "curso": "SE1104",
               "grupo": 4
             },
             {
               "curso": "SE1204",
               "grupo": 6
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 2
             },
             {
               "curso": "EL4703",
@@ -42587,10 +42587,6 @@
               "grupo": 6
             },
             {
-              "curso": "MA2105",
-              "grupo": 7
-            },
-            {
               "curso": "SE1201",
               "grupo": 2
             },
@@ -42617,6 +42613,10 @@
             {
               "curso": "EL3212",
               "grupo": 2
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 7
             },
             {
               "curso": "CM3207",
@@ -43069,16 +43069,16 @@
               "grupo": 8
             },
             {
-              "curso": "MA2105",
-              "grupo": 2
-            },
-            {
               "curso": "SE1104",
               "grupo": 4
             },
             {
               "curso": "SE1204",
               "grupo": 6
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 2
             },
             {
               "curso": "EL4703",
@@ -43315,10 +43315,6 @@
               "grupo": 4
             },
             {
-              "curso": "MA2105",
-              "grupo": 6
-            },
-            {
               "curso": "SE1101",
               "grupo": 2
             },
@@ -43353,6 +43349,10 @@
             {
               "curso": "EL3307",
               "grupo": 2
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 6
             },
             {
               "curso": "CM3207",
@@ -43694,10 +43694,6 @@
               "grupo": 9
             },
             {
-              "curso": "MA2105",
-              "grupo": 5
-            },
-            {
               "curso": "SE1101",
               "grupo": 4
             },
@@ -43712,6 +43708,10 @@
             {
               "curso": "SE1204",
               "grupo": 7
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 5
             },
             {
               "curso": "CS3404",
@@ -43907,10 +43907,6 @@
               "grupo": 4
             },
             {
-              "curso": "MA2105",
-              "grupo": 6
-            },
-            {
               "curso": "SE1105",
               "grupo": 3
             },
@@ -43929,6 +43925,10 @@
             {
               "curso": "EL3307",
               "grupo": 2
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 6
             },
             {
               "curso": "CM3207",
@@ -44080,10 +44080,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1103",
               "grupo": 3
             },
@@ -44106,6 +44102,10 @@
             {
               "curso": "EL3215",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -44499,10 +44499,6 @@
               "grupo": 5
             },
             {
-              "curso": "MA2105",
-              "grupo": 6
-            },
-            {
               "curso": "SE1101",
               "grupo": 3
             },
@@ -44513,6 +44509,10 @@
             {
               "curso": "SE1204",
               "grupo": 3
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 6
             },
             {
               "curso": "CM3207",
@@ -44736,14 +44736,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 1
-            },
-            {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1102",
               "grupo": 2
             },
@@ -44794,6 +44786,14 @@
             {
               "curso": "EL3307",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -44898,10 +44898,6 @@
               "grupo": 6
             },
             {
-              "curso": "MA2105",
-              "grupo": 7
-            },
-            {
               "curso": "SE1206",
               "grupo": 4
             },
@@ -44912,6 +44908,10 @@
             {
               "curso": "EL3212",
               "grupo": 2
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 7
             },
             {
               "curso": "CM3207",
@@ -45015,10 +45015,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 1
-            },
-            {
               "curso": "SE1102",
               "grupo": 2
             },
@@ -45040,6 +45036,10 @@
             },
             {
               "curso": "EL3307",
+              "grupo": 1
+            },
+            {
+              "curso": "MA2105",
               "grupo": 1
             },
             {
@@ -45164,10 +45164,6 @@
               "grupo": 9
             },
             {
-              "curso": "MA2105",
-              "grupo": 5
-            },
-            {
               "curso": "SE1101",
               "grupo": 4
             },
@@ -45178,6 +45174,10 @@
             {
               "curso": "SE1204",
               "grupo": 7
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 5
             },
             {
               "curso": "EL4513",
@@ -45319,10 +45319,6 @@
               "grupo": 6
             },
             {
-              "curso": "MA2105",
-              "grupo": 7
-            },
-            {
               "curso": "SE1201",
               "grupo": 2
             },
@@ -45353,6 +45349,10 @@
             {
               "curso": "EL3212",
               "grupo": 2
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 7
             },
             {
               "curso": "CM3207",
@@ -45565,10 +45565,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1103",
               "grupo": 3
             },
@@ -45619,6 +45615,10 @@
             {
               "curso": "EL3215",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -46175,10 +46175,6 @@
               "grupo": 5
             },
             {
-              "curso": "MA2105",
-              "grupo": 6
-            },
-            {
               "curso": "SE1101",
               "grupo": 3
             },
@@ -46197,6 +46193,10 @@
             {
               "curso": "SE1204",
               "grupo": 9
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 6
             },
             {
               "curso": "CM3207",
@@ -46386,10 +46386,6 @@
               "grupo": 5
             },
             {
-              "curso": "MA2105",
-              "grupo": 6
-            },
-            {
               "curso": "SE1101",
               "grupo": 3
             },
@@ -46408,6 +46404,10 @@
             {
               "curso": "SE1204",
               "grupo": 9
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 6
             },
             {
               "curso": "CM3207",
@@ -46556,10 +46556,6 @@
               "grupo": 9
             },
             {
-              "curso": "MA2105",
-              "grupo": 5
-            },
-            {
               "curso": "SE1101",
               "grupo": 4
             },
@@ -46574,6 +46570,10 @@
             {
               "curso": "SE1204",
               "grupo": 7
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 5
             },
             {
               "curso": "EL4513",
@@ -46774,10 +46774,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1103",
               "grupo": 3
             },
@@ -46828,6 +46824,10 @@
             {
               "curso": "EL3215",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -47182,16 +47182,16 @@
               "grupo": 8
             },
             {
-              "curso": "MA2105",
-              "grupo": 2
-            },
-            {
               "curso": "SE1104",
               "grupo": 4
             },
             {
               "curso": "SE1204",
               "grupo": 6
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 2
             },
             {
               "curso": "EL4703",
@@ -47392,10 +47392,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1103",
               "grupo": 3
             },
@@ -47446,6 +47442,10 @@
             {
               "curso": "EL3215",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -47844,10 +47844,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 1
-            },
-            {
               "curso": "SE1102",
               "grupo": 2
             },
@@ -47877,6 +47873,10 @@
             },
             {
               "curso": "EL3307",
+              "grupo": 1
+            },
+            {
+              "curso": "MA2105",
               "grupo": 1
             },
             {
@@ -48514,10 +48514,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1103",
               "grupo": 3
             },
@@ -48568,6 +48564,10 @@
             {
               "curso": "EL3215",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -48757,10 +48757,6 @@
               "grupo": 5
             },
             {
-              "curso": "MA2105",
-              "grupo": 6
-            },
-            {
               "curso": "SE1101",
               "grupo": 3
             },
@@ -48779,6 +48775,10 @@
             {
               "curso": "SE1204",
               "grupo": 9
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 6
             },
             {
               "curso": "CM3207",
@@ -48927,10 +48927,6 @@
               "grupo": 9
             },
             {
-              "curso": "MA2105",
-              "grupo": 5
-            },
-            {
               "curso": "SE1101",
               "grupo": 4
             },
@@ -48945,6 +48941,10 @@
             {
               "curso": "SE1204",
               "grupo": 7
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 5
             },
             {
               "curso": "EL4513",
@@ -49077,16 +49077,16 @@
               "grupo": 8
             },
             {
-              "curso": "MA2105",
-              "grupo": 2
-            },
-            {
               "curso": "SE1104",
               "grupo": 4
             },
             {
               "curso": "SE1204",
               "grupo": 6
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 2
             },
             {
               "curso": "EL4703",
@@ -49199,10 +49199,6 @@
               "grupo": 6
             },
             {
-              "curso": "MA2105",
-              "grupo": 7
-            },
-            {
               "curso": "SE1201",
               "grupo": 2
             },
@@ -49229,6 +49225,10 @@
             {
               "curso": "EL3212",
               "grupo": 2
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 7
             },
             {
               "curso": "CM3207",
@@ -49441,10 +49441,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1103",
               "grupo": 3
             },
@@ -49495,6 +49491,10 @@
             {
               "curso": "EL3215",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -49643,10 +49643,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 1
-            },
-            {
               "curso": "SE1102",
               "grupo": 2
             },
@@ -49676,6 +49672,10 @@
             },
             {
               "curso": "EL3307",
+              "grupo": 1
+            },
+            {
+              "curso": "MA2105",
               "grupo": 1
             },
             {
@@ -49878,10 +49878,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1103",
               "grupo": 3
             },
@@ -49904,6 +49900,10 @@
             {
               "curso": "EL3215",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -50088,10 +50088,6 @@
               "grupo": 5
             },
             {
-              "curso": "MA2105",
-              "grupo": 6
-            },
-            {
               "curso": "SE1101",
               "grupo": 3
             },
@@ -50102,6 +50098,10 @@
             {
               "curso": "SE1204",
               "grupo": 3
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 6
             },
             {
               "curso": "CM3207",
@@ -50434,10 +50434,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1104",
               "grupo": 1
             },
@@ -50464,6 +50460,10 @@
             {
               "curso": "SE1221",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -50708,16 +50708,16 @@
               "grupo": 5
             },
             {
-              "curso": "MA2105",
-              "grupo": 6
-            },
-            {
               "curso": "SE1105",
               "grupo": 6
             },
             {
               "curso": "SE1204",
               "grupo": 9
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 6
             },
             {
               "curso": "EL3310",
@@ -50919,16 +50919,16 @@
               "grupo": 8
             },
             {
-              "curso": "MA2105",
-              "grupo": 2
-            },
-            {
               "curso": "SE1104",
               "grupo": 4
             },
             {
               "curso": "SE1204",
               "grupo": 6
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 2
             },
             {
               "curso": "EL4703",
@@ -51571,10 +51571,6 @@
               "grupo": 6
             },
             {
-              "curso": "MA2105",
-              "grupo": 7
-            },
-            {
               "curso": "SE1201",
               "grupo": 2
             },
@@ -51601,6 +51597,10 @@
             {
               "curso": "EL3212",
               "grupo": 2
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 7
             },
             {
               "curso": "CM3207",
@@ -51750,10 +51750,6 @@
               "grupo": 7
             },
             {
-              "curso": "MA2105",
-              "grupo": 1
-            },
-            {
               "curso": "SE1102",
               "grupo": 2
             },
@@ -51783,6 +51779,10 @@
             },
             {
               "curso": "EL3307",
+              "grupo": 1
+            },
+            {
+              "curso": "MA2105",
               "grupo": 1
             },
             {
@@ -52154,10 +52154,6 @@
               "grupo": 9
             },
             {
-              "curso": "MA2105",
-              "grupo": 5
-            },
-            {
               "curso": "SE1101",
               "grupo": 4
             },
@@ -52172,6 +52168,10 @@
             {
               "curso": "SE1204",
               "grupo": 7
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 5
             },
             {
               "curso": "EL4513",
@@ -52607,10 +52607,6 @@
               "grupo": 6
             },
             {
-              "curso": "MA2105",
-              "grupo": 6
-            },
-            {
               "curso": "SE1101",
               "grupo": 3
             },
@@ -52629,6 +52625,10 @@
             {
               "curso": "SE1204",
               "grupo": 9
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 6
             },
             {
               "curso": "CM3207",
@@ -52777,10 +52777,6 @@
               "grupo": 3
             },
             {
-              "curso": "MA2105",
-              "grupo": 5
-            },
-            {
               "curso": "SE1101",
               "grupo": 4
             },
@@ -52795,6 +52791,10 @@
             {
               "curso": "SE1204",
               "grupo": 7
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 5
             },
             {
               "curso": "EL4513",
@@ -52907,10 +52907,6 @@
               "grupo": 3
             },
             {
-              "curso": "MA2105",
-              "grupo": 7
-            },
-            {
               "curso": "SE1201",
               "grupo": 2
             },
@@ -52937,6 +52933,10 @@
             {
               "curso": "EL3212",
               "grupo": 2
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 7
             },
             {
               "curso": "CM3207",
@@ -53469,16 +53469,16 @@
               "grupo": 3
             },
             {
-              "curso": "MA2105",
-              "grupo": 2
-            },
-            {
               "curso": "SE1104",
               "grupo": 4
             },
             {
               "curso": "SE1204",
               "grupo": 6
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 2
             },
             {
               "curso": "EL4703",
@@ -53683,10 +53683,6 @@
               "grupo": 1
             },
             {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1103",
               "grupo": 3
             },
@@ -53737,6 +53733,10 @@
             {
               "curso": "EL3215",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -53961,10 +53961,6 @@
               "grupo": 1
             },
             {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1103",
               "grupo": 3
             },
@@ -54015,6 +54011,10 @@
             {
               "curso": "EL3215",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -54264,1213 +54264,6 @@
 
       "tieneChoque": true,
       "puedeMatricular": true
-    },
-    {
-      "codigo": "MA2105",
-      "nombre": "ecuaciones diferenciales",
-      "carrera": "Electronica",
-      "creditos": 4,
-      "semestre": 4,
-
-      "requisitos": ["MA1103"],
-      "correquisitos": [],
-      "correquisitosPendientes": [],
-
-      "grupos": [
-        {
-          "numero": 1,
-          "horarios": [
-            {
-              "dia": "MAR",
-              "inicio": "07:30",
-              "fin": "09:20"
-            },
-            {
-              "dia": "JUE",
-              "inicio": "07:30",
-              "fin": "09:20"
-            },
-            {
-              "dia": "MAR",
-              "inicio": "07:30",
-              "fin": "09:20"
-            },
-            {
-              "dia": "JUE",
-              "inicio": "07:30",
-              "fin": "09:20"
-            }
-          ],
-          "tieneChoque": true,
-          "choques": [
-            {
-              "curso": "MA0101",
-              "grupo": 3
-            },
-            {
-              "curso": "MA0101",
-              "grupo": 1
-            },
-            {
-              "curso": "MA0101",
-              "grupo": 2
-            },
-            {
-              "curso": "CA2125",
-              "grupo": 11
-            },
-            {
-              "curso": "CA2125",
-              "grupo": 13
-            },
-            {
-              "curso": "MA1102",
-              "grupo": 2
-            },
-            {
-              "curso": "MA1102",
-              "grupo": 1
-            },
-            {
-              "curso": "MI2101",
-              "grupo": 3
-            },
-            {
-              "curso": "QU1106",
-              "grupo": 2
-            },
-            {
-              "curso": "QU1106",
-              "grupo": 1
-            },
-            {
-              "curso": "QU1102",
-              "grupo": 31
-            },
-            {
-              "curso": "QU1102",
-              "grupo": 1
-            },
-            {
-              "curso": "QU1102",
-              "grupo": 3
-            },
-            {
-              "curso": "QU1102",
-              "grupo": 32
-            },
-            {
-              "curso": "QU1102",
-              "grupo": 2
-            },
-            {
-              "curso": "QU1102",
-              "grupo": 33
-            },
-            {
-              "curso": "CA3125",
-              "grupo": 1
-            },
-            {
-              "curso": "CI1230",
-              "grupo": 2
-            },
-            {
-              "curso": "FI1101",
-              "grupo": 1
-            },
-            {
-              "curso": "FI1201",
-              "grupo": 1
-            },
-            {
-              "curso": "MA1103",
-              "grupo": 1
-            },
-            {
-              "curso": "MA1103",
-              "grupo": 2
-            },
-            {
-              "curso": "CI1231",
-              "grupo": 2
-            },
-            {
-              "curso": "EL2110",
-              "grupo": 2
-            },
-            {
-              "curso": "FI1102",
-              "grupo": 1
-            },
-            {
-              "curso": "MA2104",
-              "grupo": 7
-            },
-            {
-              "curso": "EL2207",
-              "grupo": 2
-            },
-            {
-              "curso": "SE1102",
-              "grupo": 2
-            },
-            {
-              "curso": "SE1106",
-              "grupo": 1
-            },
-            {
-              "curso": "SE1201",
-              "grupo": 1
-            },
-            {
-              "curso": "SE1201",
-              "grupo": 4
-            },
-            {
-              "curso": "SE1205",
-              "grupo": 3
-            },
-            {
-              "curso": "SE1205",
-              "grupo": 5
-            },
-            {
-              "curso": "SE1209",
-              "grupo": 2
-            },
-            {
-              "curso": "EL3307",
-              "grupo": 1
-            },
-            {
-              "curso": "CM3207",
-              "grupo": 7
-            },
-            {
-              "curso": "CM3207",
-              "grupo": 3
-            },
-            {
-              "curso": "EL3216",
-              "grupo": 1
-            }
-          ]
-        },
-        {
-          "numero": 5,
-          "horarios": [
-            {
-              "dia": "MIE",
-              "inicio": "15:00",
-              "fin": "16:50"
-            },
-            {
-              "dia": "VIE",
-              "inicio": "15:00",
-              "fin": "16:50"
-            },
-            {
-              "dia": "MIE",
-              "inicio": "15:00",
-              "fin": "16:50"
-            },
-            {
-              "dia": "VIE",
-              "inicio": "15:00",
-              "fin": "16:50"
-            }
-          ],
-          "tieneChoque": true,
-          "choques": [
-            {
-              "curso": "MA0101",
-              "grupo": 28
-            },
-            {
-              "curso": "MA0101",
-              "grupo": 29
-            },
-            {
-              "curso": "MA0101",
-              "grupo": 30
-            },
-            {
-              "curso": "CA2125",
-              "grupo": 12
-            },
-            {
-              "curso": "CS1502",
-              "grupo": 11
-            },
-            {
-              "curso": "CS1502",
-              "grupo": 8
-            },
-            {
-              "curso": "MA1102",
-              "grupo": 16
-            },
-            {
-              "curso": "MA1102",
-              "grupo": 15
-            },
-            {
-              "curso": "MA1102",
-              "grupo": 17
-            },
-            {
-              "curso": "MA1102",
-              "grupo": 14
-            },
-            {
-              "curso": "MI2101",
-              "grupo": 8
-            },
-            {
-              "curso": "MI2101",
-              "grupo": 11
-            },
-            {
-              "curso": "MI2101",
-              "grupo": 14
-            },
-            {
-              "curso": "QU1106",
-              "grupo": 22
-            },
-            {
-              "curso": "QU1106",
-              "grupo": 23
-            },
-            {
-              "curso": "QU1102",
-              "grupo": 77
-            },
-            {
-              "curso": "QU1102",
-              "grupo": 25
-            },
-            {
-              "curso": "QU1102",
-              "grupo": 76
-            },
-            {
-              "curso": "QU1102",
-              "grupo": 27
-            },
-            {
-              "curso": "SO4604",
-              "grupo": 4
-            },
-            {
-              "curso": "CI1230",
-              "grupo": 7
-            },
-            {
-              "curso": "EL1200",
-              "grupo": 2
-            },
-            {
-              "curso": "FI1101",
-              "grupo": 13
-            },
-            {
-              "curso": "FI1201",
-              "grupo": 8
-            },
-            {
-              "curso": "MA1103",
-              "grupo": 12
-            },
-            {
-              "curso": "CI1231",
-              "grupo": 3
-            },
-            {
-              "curso": "EL2110",
-              "grupo": 1
-            },
-            {
-              "curso": "FI1102",
-              "grupo": 9
-            },
-            {
-              "curso": "MA2104",
-              "grupo": 3
-            },
-            {
-              "curso": "EL2207",
-              "grupo": 3
-            },
-            {
-              "curso": "FI2103",
-              "grupo": 9
-            },
-            {
-              "curso": "SE1101",
-              "grupo": 4
-            },
-            {
-              "curso": "SE1103",
-              "grupo": 1
-            },
-            {
-              "curso": "SE1103",
-              "grupo": 5
-            },
-            {
-              "curso": "SE1204",
-              "grupo": 7
-            },
-            {
-              "curso": "EL4513",
-              "grupo": 1
-            }
-          ]
-        },
-        {
-          "numero": 4,
-          "horarios": [
-            {
-              "dia": "SAB",
-              "inicio": "07:30",
-              "fin": "11:20"
-            },
-            {
-              "dia": "SAB",
-              "inicio": "07:30",
-              "fin": "11:20"
-            }
-          ],
-          "tieneChoque": true,
-          "choques": [
-            {
-              "curso": "MA0101",
-              "grupo": 35
-            },
-            {
-              "curso": "MA1102",
-              "grupo": 20
-            },
-            {
-              "curso": "MA1103",
-              "grupo": 16
-            },
-            {
-              "curso": "MA2104",
-              "grupo": 5
-            }
-          ]
-        },
-        {
-          "numero": 2,
-          "horarios": [
-            {
-              "dia": "MIE",
-              "inicio": "13:00",
-              "fin": "14:50"
-            },
-            {
-              "dia": "VIE",
-              "inicio": "13:00",
-              "fin": "14:50"
-            },
-            {
-              "dia": "MIE",
-              "inicio": "13:00",
-              "fin": "14:50"
-            },
-            {
-              "dia": "VIE",
-              "inicio": "13:00",
-              "fin": "14:50"
-            }
-          ],
-          "tieneChoque": true,
-          "choques": [
-            {
-              "curso": "MA0101",
-              "grupo": 28
-            },
-            {
-              "curso": "CA2125",
-              "grupo": 8
-            },
-            {
-              "curso": "CS1502",
-              "grupo": 16
-            },
-            {
-              "curso": "EL1100",
-              "grupo": 4
-            },
-            {
-              "curso": "MA1102",
-              "grupo": 15
-            },
-            {
-              "curso": "MA1102",
-              "grupo": 14
-            },
-            {
-              "curso": "MI2101",
-              "grupo": 8
-            },
-            {
-              "curso": "MI2101",
-              "grupo": 11
-            },
-            {
-              "curso": "MI2101",
-              "grupo": 14
-            },
-            {
-              "curso": "QU1106",
-              "grupo": 20
-            },
-            {
-              "curso": "QU1106",
-              "grupo": 21
-            },
-            {
-              "curso": "QU1102",
-              "grupo": 73
-            },
-            {
-              "curso": "QU1102",
-              "grupo": 22
-            },
-            {
-              "curso": "QU1102",
-              "grupo": 24
-            },
-            {
-              "curso": "QU1102",
-              "grupo": 23
-            },
-            {
-              "curso": "QU1102",
-              "grupo": 75
-            },
-            {
-              "curso": "QU1102",
-              "grupo": 74
-            },
-            {
-              "curso": "SO4604",
-              "grupo": 4
-            },
-            {
-              "curso": "CA3125",
-              "grupo": 4
-            },
-            {
-              "curso": "CI1230",
-              "grupo": 7
-            },
-            {
-              "curso": "EL1200",
-              "grupo": 4
-            },
-            {
-              "curso": "FI1101",
-              "grupo": 12
-            },
-            {
-              "curso": "MA1103",
-              "grupo": 11
-            },
-            {
-              "curso": "MA1103",
-              "grupo": 8
-            },
-            {
-              "curso": "FI1102",
-              "grupo": 8
-            },
-            {
-              "curso": "MA2104",
-              "grupo": 6
-            },
-            {
-              "curso": "EL2111",
-              "grupo": 3
-            },
-            {
-              "curso": "FI2103",
-              "grupo": 8
-            },
-            {
-              "curso": "SE1104",
-              "grupo": 4
-            },
-            {
-              "curso": "SE1204",
-              "grupo": 6
-            },
-            {
-              "curso": "EL4703",
-              "grupo": 1
-            }
-          ]
-        },
-        {
-          "numero": 6,
-          "horarios": [
-            {
-              "dia": "MAR",
-              "inicio": "17:00",
-              "fin": "18:50"
-            },
-            {
-              "dia": "JUE",
-              "inicio": "17:00",
-              "fin": "18:50"
-            },
-            {
-              "dia": "MAR",
-              "inicio": "17:00",
-              "fin": "18:50"
-            },
-            {
-              "dia": "JUE",
-              "inicio": "17:00",
-              "fin": "18:50"
-            }
-          ],
-          "tieneChoque": true,
-          "choques": [
-            {
-              "curso": "MA0101",
-              "grupo": 20
-            },
-            {
-              "curso": "MA0101",
-              "grupo": 15
-            },
-            {
-              "curso": "MA0101",
-              "grupo": 18
-            },
-            {
-              "curso": "MA0101",
-              "grupo": 16
-            },
-            {
-              "curso": "MA0101",
-              "grupo": 17
-            },
-            {
-              "curso": "MA0101",
-              "grupo": 13
-            },
-            {
-              "curso": "MA0101",
-              "grupo": 19
-            },
-            {
-              "curso": "MA0101",
-              "grupo": 14
-            },
-            {
-              "curso": "CS1502",
-              "grupo": 19
-            },
-            {
-              "curso": "MA1102",
-              "grupo": 8
-            },
-            {
-              "curso": "MA1102",
-              "grupo": 6
-            },
-            {
-              "curso": "MA1102",
-              "grupo": 9
-            },
-            {
-              "curso": "MA1102",
-              "grupo": 7
-            },
-            {
-              "curso": "MI2101",
-              "grupo": 15
-            },
-            {
-              "curso": "MI2101",
-              "grupo": 5
-            },
-            {
-              "curso": "QU1106",
-              "grupo": 13
-            },
-            {
-              "curso": "QU1102",
-              "grupo": 13
-            },
-            {
-              "curso": "QU1102",
-              "grupo": 43
-            },
-            {
-              "curso": "QU1102",
-              "grupo": 14
-            },
-            {
-              "curso": "QU1102",
-              "grupo": 45
-            },
-            {
-              "curso": "SO4604",
-              "grupo": 3
-            },
-            {
-              "curso": "CA3125",
-              "grupo": 3
-            },
-            {
-              "curso": "CI1230",
-              "grupo": 6
-            },
-            {
-              "curso": "CI1407",
-              "grupo": 2
-            },
-            {
-              "curso": "FI1101",
-              "grupo": 8
-            },
-            {
-              "curso": "FI1101",
-              "grupo": 3
-            },
-            {
-              "curso": "FI1201",
-              "grupo": 5
-            },
-            {
-              "curso": "MA1103",
-              "grupo": 7
-            },
-            {
-              "curso": "MA1103",
-              "grupo": 6
-            },
-            {
-              "curso": "CI1231",
-              "grupo": 8
-            },
-            {
-              "curso": "CI1231",
-              "grupo": 4
-            },
-            {
-              "curso": "EL4702",
-              "grupo": 1
-            },
-            {
-              "curso": "FI1102",
-              "grupo": 6
-            },
-            {
-              "curso": "MA2104",
-              "grupo": 2
-            },
-            {
-              "curso": "CS2303",
-              "grupo": 3
-            },
-            {
-              "curso": "CS2303",
-              "grupo": 6
-            },
-            {
-              "curso": "FI2103",
-              "grupo": 5
-            },
-            {
-              "curso": "SE1101",
-              "grupo": 3
-            },
-            {
-              "curso": "SE1105",
-              "grupo": 2
-            },
-            {
-              "curso": "SE1105",
-              "grupo": 6
-            },
-            {
-              "curso": "SE1204",
-              "grupo": 3
-            },
-            {
-              "curso": "SE1204",
-              "grupo": 9
-            },
-            {
-              "curso": "CM3207",
-              "grupo": 5
-            },
-            {
-              "curso": "EL3310",
-              "grupo": 1
-            }
-          ]
-        },
-        {
-          "numero": 3,
-          "horarios": [
-            {
-              "dia": "MAR",
-              "inicio": "09:30",
-              "fin": "11:20"
-            },
-            {
-              "dia": "JUE",
-              "inicio": "09:30",
-              "fin": "11:20"
-            },
-            {
-              "dia": "MAR",
-              "inicio": "09:30",
-              "fin": "11:20"
-            },
-            {
-              "dia": "JUE",
-              "inicio": "09:30",
-              "fin": "11:20"
-            }
-          ],
-          "tieneChoque": true,
-          "choques": [
-            {
-              "curso": "MA0101",
-              "grupo": 8
-            },
-            {
-              "curso": "MA0101",
-              "grupo": 7
-            },
-            {
-              "curso": "MA0101",
-              "grupo": 3
-            },
-            {
-              "curso": "MA0101",
-              "grupo": 4
-            },
-            {
-              "curso": "MA0101",
-              "grupo": 5
-            },
-            {
-              "curso": "MA0101",
-              "grupo": 1
-            },
-            {
-              "curso": "MA0101",
-              "grupo": 6
-            },
-            {
-              "curso": "MA0101",
-              "grupo": 2
-            },
-            {
-              "curso": "CA2125",
-              "grupo": 11
-            },
-            {
-              "curso": "CA2125",
-              "grupo": 5
-            },
-            {
-              "curso": "CS1502",
-              "grupo": 17
-            },
-            {
-              "curso": "CS1502",
-              "grupo": 18
-            },
-            {
-              "curso": "CS1502",
-              "grupo": 14
-            },
-            {
-              "curso": "CS1502",
-              "grupo": 9
-            },
-            {
-              "curso": "CS1502",
-              "grupo": 3
-            },
-            {
-              "curso": "MA1102",
-              "grupo": 4
-            },
-            {
-              "curso": "MA1102",
-              "grupo": 2
-            },
-            {
-              "curso": "MA1102",
-              "grupo": 3
-            },
-            {
-              "curso": "MA1102",
-              "grupo": 1
-            },
-            {
-              "curso": "MI2101",
-              "grupo": 3
-            },
-            {
-              "curso": "QU1106",
-              "grupo": 6
-            },
-            {
-              "curso": "QU1106",
-              "grupo": 4
-            },
-            {
-              "curso": "QU1106",
-              "grupo": 5
-            },
-            {
-              "curso": "QU1102",
-              "grupo": 36
-            },
-            {
-              "curso": "QU1102",
-              "grupo": 35
-            },
-            {
-              "curso": "QU1102",
-              "grupo": 5
-            },
-            {
-              "curso": "QU1102",
-              "grupo": 6
-            },
-            {
-              "curso": "QU1102",
-              "grupo": 4
-            },
-            {
-              "curso": "QU1102",
-              "grupo": 34
-            },
-            {
-              "curso": "CA3125",
-              "grupo": 2
-            },
-            {
-              "curso": "CI1230",
-              "grupo": 3
-            },
-            {
-              "curso": "CI1230",
-              "grupo": 2
-            },
-            {
-              "curso": "FI1101",
-              "grupo": 2
-            },
-            {
-              "curso": "FI1201",
-              "grupo": 2
-            },
-            {
-              "curso": "FI1201",
-              "grupo": 9
-            },
-            {
-              "curso": "MA1103",
-              "grupo": 3
-            },
-            {
-              "curso": "CI1231",
-              "grupo": 6
-            },
-            {
-              "curso": "CI1231",
-              "grupo": 2
-            },
-            {
-              "curso": "EL2113",
-              "grupo": 2
-            },
-            {
-              "curso": "FI1102",
-              "grupo": 11
-            },
-            {
-              "curso": "FI1102",
-              "grupo": 3
-            },
-            {
-              "curso": "FI1102",
-              "grupo": 2
-            },
-            {
-              "curso": "MA2104",
-              "grupo": 4
-            },
-            {
-              "curso": "CS2303",
-              "grupo": 4
-            },
-            {
-              "curso": "CS2303",
-              "grupo": 1
-            },
-            {
-              "curso": "FI2103",
-              "grupo": 1
-            },
-            {
-              "curso": "FI2103",
-              "grupo": 2
-            },
-            {
-              "curso": "SE1103",
-              "grupo": 3
-            },
-            {
-              "curso": "SE1104",
-              "grupo": 1
-            },
-            {
-              "curso": "SE1105",
-              "grupo": 4
-            },
-            {
-              "curso": "SE1107",
-              "grupo": 5
-            },
-            {
-              "curso": "SE1107",
-              "grupo": 1
-            },
-            {
-              "curso": "SE1204",
-              "grupo": 8
-            },
-            {
-              "curso": "SE1206",
-              "grupo": 1
-            },
-            {
-              "curso": "SE1206",
-              "grupo": 3
-            },
-            {
-              "curso": "SE1209",
-              "grupo": 3
-            },
-            {
-              "curso": "SE1218",
-              "grupo": 1
-            },
-            {
-              "curso": "SE1221",
-              "grupo": 1
-            },
-            {
-              "curso": "SE1221",
-              "grupo": 2
-            },
-            {
-              "curso": "EL3215",
-              "grupo": 1
-            },
-            {
-              "curso": "CS3404",
-              "grupo": 2
-            },
-            {
-              "curso": "CS3404",
-              "grupo": 6
-            },
-            {
-              "curso": "CS3404",
-              "grupo": 9
-            },
-            {
-              "curso": "CM3207",
-              "grupo": 7
-            },
-            {
-              "curso": "CM3207",
-              "grupo": 3
-            },
-            {
-              "curso": "EL4703",
-              "grupo": 2
-            }
-          ]
-        },
-        {
-          "numero": 7,
-          "horarios": [
-            {
-              "dia": "MIE",
-              "inicio": "07:30",
-              "fin": "09:20"
-            },
-            {
-              "dia": "VIE",
-              "inicio": "07:30",
-              "fin": "09:20"
-            },
-            {
-              "dia": "MIE",
-              "inicio": "07:30",
-              "fin": "09:20"
-            },
-            {
-              "dia": "VIE",
-              "inicio": "07:30",
-              "fin": "09:20"
-            }
-          ],
-          "tieneChoque": true,
-          "choques": [
-            {
-              "curso": "MA0101",
-              "grupo": 23
-            },
-            {
-              "curso": "MA0101",
-              "grupo": 22
-            },
-            {
-              "curso": "CS1502",
-              "grupo": 15
-            },
-            {
-              "curso": "MA1102",
-              "grupo": 11
-            },
-            {
-              "curso": "MA1102",
-              "grupo": 10
-            },
-            {
-              "curso": "MI2101",
-              "grupo": 7
-            },
-            {
-              "curso": "MI2101",
-              "grupo": 6
-            },
-            {
-              "curso": "QU1106",
-              "grupo": 14
-            },
-            {
-              "curso": "QU1106",
-              "grupo": 16
-            },
-            {
-              "curso": "QU1102",
-              "grupo": 16
-            },
-            {
-              "curso": "QU1102",
-              "grupo": 48
-            },
-            {
-              "curso": "QU1102",
-              "grupo": 18
-            },
-            {
-              "curso": "QU1102",
-              "grupo": 17
-            },
-            {
-              "curso": "QU1102",
-              "grupo": 46
-            },
-            {
-              "curso": "CI1230",
-              "grupo": 11
-            },
-            {
-              "curso": "CI1230",
-              "grupo": 4
-            },
-            {
-              "curso": "FI1101",
-              "grupo": 9
-            },
-            {
-              "curso": "MA1103",
-              "grupo": 9
-            },
-            {
-              "curso": "EL2110",
-              "grupo": 3
-            },
-            {
-              "curso": "EL2113",
-              "grupo": 4
-            },
-            {
-              "curso": "MA2104",
-              "grupo": 1
-            },
-            {
-              "curso": "EL2114",
-              "grupo": 3
-            },
-            {
-              "curso": "FI2103",
-              "grupo": 6
-            },
-            {
-              "curso": "SE1201",
-              "grupo": 2
-            },
-            {
-              "curso": "SE1204",
-              "grupo": 4
-            },
-            {
-              "curso": "SE1206",
-              "grupo": 4
-            },
-            {
-              "curso": "SE1209",
-              "grupo": 4
-            },
-            {
-              "curso": "SE1209",
-              "grupo": 5
-            },
-            {
-              "curso": "SE1222",
-              "grupo": 1
-            },
-            {
-              "curso": "EL3212",
-              "grupo": 2
-            },
-            {
-              "curso": "CM3207",
-              "grupo": 4
-            },
-            {
-              "curso": "CM3207",
-              "grupo": 2
-            }
-          ]
-        }
-      ],
-
-      "tieneChoque": true,
-      "puedeMatricular": false
     },
     {
       "codigo": "SE1101",
@@ -55842,16 +54635,16 @@
               "grupo": 5
             },
             {
-              "curso": "MA2105",
-              "grupo": 6
-            },
-            {
               "curso": "SE1105",
               "grupo": 2
             },
             {
               "curso": "SE1204",
               "grupo": 3
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 6
             },
             {
               "curso": "CM3207",
@@ -55979,16 +54772,16 @@
               "grupo": 9
             },
             {
-              "curso": "MA2105",
-              "grupo": 5
-            },
-            {
               "curso": "SE1103",
               "grupo": 1
             },
             {
               "curso": "SE1204",
               "grupo": 7
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 5
             },
             {
               "curso": "EL4513",
@@ -56190,10 +54983,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 1
-            },
-            {
               "curso": "SE1106",
               "grupo": 1
             },
@@ -56211,6 +55000,10 @@
             },
             {
               "curso": "EL3307",
+              "grupo": 1
+            },
+            {
+              "curso": "MA2105",
               "grupo": 1
             },
             {
@@ -56356,16 +55149,16 @@
               "grupo": 9
             },
             {
-              "curso": "MA2105",
-              "grupo": 5
-            },
-            {
               "curso": "SE1101",
               "grupo": 4
             },
             {
               "curso": "SE1204",
               "grupo": 7
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 5
             },
             {
               "curso": "EL4513",
@@ -56517,10 +55310,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1107",
               "grupo": 5
             },
@@ -56539,6 +55328,10 @@
             {
               "curso": "EL3215",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -57062,10 +55855,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1105",
               "grupo": 4
             },
@@ -57088,6 +55877,10 @@
             {
               "curso": "SE1221",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -57525,12 +56318,12 @@
               "grupo": 8
             },
             {
-              "curso": "MA2105",
-              "grupo": 2
-            },
-            {
               "curso": "SE1204",
               "grupo": 6
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 2
             },
             {
               "curso": "EL4703",
@@ -57989,16 +56782,16 @@
               "grupo": 5
             },
             {
-              "curso": "MA2105",
-              "grupo": 6
-            },
-            {
               "curso": "SE1101",
               "grupo": 3
             },
             {
               "curso": "SE1204",
               "grupo": 3
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 6
             },
             {
               "curso": "CM3207",
@@ -58295,10 +57088,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1104",
               "grupo": 1
             },
@@ -58321,6 +57110,10 @@
             {
               "curso": "SE1221",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -58440,12 +57233,12 @@
               "grupo": 5
             },
             {
-              "curso": "MA2105",
-              "grupo": 6
-            },
-            {
               "curso": "SE1204",
               "grupo": 9
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 6
             },
             {
               "curso": "EL3310",
@@ -58747,10 +57540,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 1
-            },
-            {
               "curso": "SE1102",
               "grupo": 2
             },
@@ -58768,6 +57557,10 @@
             },
             {
               "curso": "EL3307",
+              "grupo": 1
+            },
+            {
+              "curso": "MA2105",
               "grupo": 1
             },
             {
@@ -58941,10 +57734,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1103",
               "grupo": 3
             },
@@ -58963,6 +57752,10 @@
             {
               "curso": "EL3215",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -59267,10 +58060,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1104",
               "grupo": 1
             },
@@ -59293,6 +58082,10 @@
             {
               "curso": "SE1221",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -59888,10 +58681,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 1
-            },
-            {
               "curso": "SE1102",
               "grupo": 2
             },
@@ -59909,6 +58698,10 @@
             },
             {
               "curso": "EL3307",
+              "grupo": 1
+            },
+            {
+              "curso": "MA2105",
               "grupo": 1
             },
             {
@@ -60009,10 +58802,6 @@
               "grupo": 6
             },
             {
-              "curso": "MA2105",
-              "grupo": 7
-            },
-            {
               "curso": "SE1204",
               "grupo": 4
             },
@@ -60027,6 +58816,10 @@
             {
               "curso": "EL3212",
               "grupo": 2
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 7
             },
             {
               "curso": "CM3207",
@@ -60122,15 +58915,15 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 1
-            },
-            {
               "curso": "SE1205",
               "grupo": 5
             },
             {
               "curso": "EL3307",
+              "grupo": 1
+            },
+            {
+              "curso": "MA2105",
               "grupo": 1
             },
             {
@@ -60881,10 +59674,6 @@
               "grupo": 6
             },
             {
-              "curso": "MA2105",
-              "grupo": 7
-            },
-            {
               "curso": "SE1201",
               "grupo": 2
             },
@@ -60899,6 +59688,10 @@
             {
               "curso": "EL3212",
               "grupo": 2
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 7
             },
             {
               "curso": "CM3207",
@@ -61042,16 +59835,16 @@
               "grupo": 5
             },
             {
-              "curso": "MA2105",
-              "grupo": 6
-            },
-            {
               "curso": "SE1101",
               "grupo": 3
             },
             {
               "curso": "SE1105",
               "grupo": 2
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 6
             },
             {
               "curso": "CM3207",
@@ -61167,12 +59960,12 @@
               "grupo": 8
             },
             {
-              "curso": "MA2105",
-              "grupo": 2
-            },
-            {
               "curso": "SE1104",
               "grupo": 4
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 2
             },
             {
               "curso": "EL4703",
@@ -61296,16 +60089,16 @@
               "grupo": 9
             },
             {
-              "curso": "MA2105",
-              "grupo": 5
-            },
-            {
               "curso": "SE1101",
               "grupo": 4
             },
             {
               "curso": "SE1103",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 5
             },
             {
               "curso": "EL4513",
@@ -61457,10 +60250,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1103",
               "grupo": 3
             },
@@ -61479,6 +60268,10 @@
             {
               "curso": "EL3215",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -61610,11 +60403,11 @@
               "grupo": 5
             },
             {
-              "curso": "MA2105",
+              "curso": "SE1105",
               "grupo": 6
             },
             {
-              "curso": "SE1105",
+              "curso": "MA2105",
               "grupo": 6
             },
             {
@@ -61740,10 +60533,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 1
-            },
-            {
               "curso": "SE1102",
               "grupo": 2
             },
@@ -61761,6 +60550,10 @@
             },
             {
               "curso": "EL3307",
+              "grupo": 1
+            },
+            {
+              "curso": "MA2105",
               "grupo": 1
             },
             {
@@ -62007,15 +60800,15 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 1
-            },
-            {
               "curso": "SE1201",
               "grupo": 4
             },
             {
               "curso": "EL3307",
+              "grupo": 1
+            },
+            {
+              "curso": "MA2105",
               "grupo": 1
             },
             {
@@ -62527,10 +61320,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1104",
               "grupo": 1
             },
@@ -62553,6 +61342,10 @@
             {
               "curso": "SE1221",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -62712,10 +61505,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1103",
               "grupo": 3
             },
@@ -62734,6 +61523,10 @@
             {
               "curso": "EL3215",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -62825,16 +61618,16 @@
               "grupo": 6
             },
             {
-              "curso": "MA2105",
-              "grupo": 7
-            },
-            {
               "curso": "SE1209",
               "grupo": 5
             },
             {
               "curso": "EL3212",
               "grupo": 2
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 7
             },
             {
               "curso": "CM3207",
@@ -63020,10 +61813,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 1
-            },
-            {
               "curso": "SE1102",
               "grupo": 2
             },
@@ -63041,6 +61830,10 @@
             },
             {
               "curso": "EL3307",
+              "grupo": 1
+            },
+            {
+              "curso": "MA2105",
               "grupo": 1
             },
             {
@@ -63141,10 +61934,6 @@
               "grupo": 6
             },
             {
-              "curso": "MA2105",
-              "grupo": 7
-            },
-            {
               "curso": "SE1201",
               "grupo": 2
             },
@@ -63159,6 +61948,10 @@
             {
               "curso": "EL3212",
               "grupo": 2
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 7
             },
             {
               "curso": "CM3207",
@@ -63238,16 +62031,16 @@
               "grupo": 6
             },
             {
-              "curso": "MA2105",
-              "grupo": 7
-            },
-            {
               "curso": "SE1206",
               "grupo": 4
             },
             {
               "curso": "EL3212",
               "grupo": 2
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 7
             },
             {
               "curso": "CM3207",
@@ -63403,10 +62196,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1104",
               "grupo": 1
             },
@@ -63429,6 +62218,10 @@
             {
               "curso": "SE1221",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -63758,10 +62551,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1104",
               "grupo": 1
             },
@@ -63784,6 +62573,10 @@
             {
               "curso": "SE1221",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -64042,10 +62835,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1104",
               "grupo": 1
             },
@@ -64068,6 +62857,10 @@
             {
               "curso": "SE1218",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -64227,10 +63020,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1103",
               "grupo": 3
             },
@@ -64249,6 +63038,10 @@
             {
               "curso": "EL3215",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -64510,10 +63303,6 @@
               "grupo": 6
             },
             {
-              "curso": "MA2105",
-              "grupo": 7
-            },
-            {
               "curso": "SE1201",
               "grupo": 2
             },
@@ -64528,6 +63317,10 @@
             {
               "curso": "EL3212",
               "grupo": 2
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 7
             },
             {
               "curso": "CM3207",
@@ -65060,10 +63853,6 @@
               "grupo": 6
             },
             {
-              "curso": "MA2105",
-              "grupo": 7
-            },
-            {
               "curso": "SE1201",
               "grupo": 2
             },
@@ -65086,6 +63875,10 @@
             {
               "curso": "SE1222",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 7
             },
             {
               "curso": "CM3207",
@@ -65258,10 +64051,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1103",
               "grupo": 3
             },
@@ -65280,6 +64069,10 @@
             {
               "curso": "SE1221",
               "grupo": 2
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -65578,10 +64371,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 1
-            },
-            {
               "curso": "SE1102",
               "grupo": 2
             },
@@ -65608,6 +64397,10 @@
             {
               "curso": "SE1209",
               "grupo": 2
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 1
             },
             {
               "curso": "CM3207",
@@ -65838,6 +64631,1148 @@
             {
               "curso": "CM3207",
               "grupo": 8
+            }
+          ]
+        }
+      ],
+
+      "tieneChoque": true,
+      "puedeMatricular": false
+    },
+    {
+      "codigo": "MA2105",
+      "nombre": "ecuaciones diferenciales",
+      "carrera": "Electronica",
+      "creditos": 4,
+      "semestre": 5,
+
+      "requisitos": ["MA1103"],
+      "correquisitos": [],
+      "correquisitosPendientes": [],
+
+      "grupos": [
+        {
+          "numero": 1,
+          "horarios": [
+            {
+              "dia": "MAR",
+              "inicio": "07:30",
+              "fin": "09:20"
+            },
+            {
+              "dia": "JUE",
+              "inicio": "07:30",
+              "fin": "09:20"
+            }
+          ],
+          "tieneChoque": true,
+          "choques": [
+            {
+              "curso": "MA0101",
+              "grupo": 3
+            },
+            {
+              "curso": "MA0101",
+              "grupo": 1
+            },
+            {
+              "curso": "MA0101",
+              "grupo": 2
+            },
+            {
+              "curso": "CA2125",
+              "grupo": 11
+            },
+            {
+              "curso": "CA2125",
+              "grupo": 13
+            },
+            {
+              "curso": "MA1102",
+              "grupo": 2
+            },
+            {
+              "curso": "MA1102",
+              "grupo": 1
+            },
+            {
+              "curso": "MI2101",
+              "grupo": 3
+            },
+            {
+              "curso": "QU1106",
+              "grupo": 2
+            },
+            {
+              "curso": "QU1106",
+              "grupo": 1
+            },
+            {
+              "curso": "QU1102",
+              "grupo": 31
+            },
+            {
+              "curso": "QU1102",
+              "grupo": 1
+            },
+            {
+              "curso": "QU1102",
+              "grupo": 3
+            },
+            {
+              "curso": "QU1102",
+              "grupo": 32
+            },
+            {
+              "curso": "QU1102",
+              "grupo": 2
+            },
+            {
+              "curso": "QU1102",
+              "grupo": 33
+            },
+            {
+              "curso": "CA3125",
+              "grupo": 1
+            },
+            {
+              "curso": "CI1230",
+              "grupo": 2
+            },
+            {
+              "curso": "FI1101",
+              "grupo": 1
+            },
+            {
+              "curso": "FI1201",
+              "grupo": 1
+            },
+            {
+              "curso": "MA1103",
+              "grupo": 1
+            },
+            {
+              "curso": "MA1103",
+              "grupo": 2
+            },
+            {
+              "curso": "CI1231",
+              "grupo": 2
+            },
+            {
+              "curso": "EL2110",
+              "grupo": 2
+            },
+            {
+              "curso": "FI1102",
+              "grupo": 1
+            },
+            {
+              "curso": "MA2104",
+              "grupo": 7
+            },
+            {
+              "curso": "EL2207",
+              "grupo": 2
+            },
+            {
+              "curso": "SE1102",
+              "grupo": 2
+            },
+            {
+              "curso": "SE1106",
+              "grupo": 1
+            },
+            {
+              "curso": "SE1201",
+              "grupo": 1
+            },
+            {
+              "curso": "SE1201",
+              "grupo": 4
+            },
+            {
+              "curso": "SE1205",
+              "grupo": 3
+            },
+            {
+              "curso": "SE1205",
+              "grupo": 5
+            },
+            {
+              "curso": "SE1209",
+              "grupo": 2
+            },
+            {
+              "curso": "EL3307",
+              "grupo": 1
+            },
+            {
+              "curso": "CM3207",
+              "grupo": 7
+            },
+            {
+              "curso": "CM3207",
+              "grupo": 3
+            },
+            {
+              "curso": "EL3216",
+              "grupo": 1
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "horarios": [
+            {
+              "dia": "MIE",
+              "inicio": "15:00",
+              "fin": "16:50"
+            },
+            {
+              "dia": "VIE",
+              "inicio": "15:00",
+              "fin": "16:50"
+            }
+          ],
+          "tieneChoque": true,
+          "choques": [
+            {
+              "curso": "MA0101",
+              "grupo": 28
+            },
+            {
+              "curso": "MA0101",
+              "grupo": 29
+            },
+            {
+              "curso": "MA0101",
+              "grupo": 30
+            },
+            {
+              "curso": "CA2125",
+              "grupo": 12
+            },
+            {
+              "curso": "CS1502",
+              "grupo": 11
+            },
+            {
+              "curso": "CS1502",
+              "grupo": 8
+            },
+            {
+              "curso": "MA1102",
+              "grupo": 16
+            },
+            {
+              "curso": "MA1102",
+              "grupo": 15
+            },
+            {
+              "curso": "MA1102",
+              "grupo": 17
+            },
+            {
+              "curso": "MA1102",
+              "grupo": 14
+            },
+            {
+              "curso": "MI2101",
+              "grupo": 8
+            },
+            {
+              "curso": "MI2101",
+              "grupo": 11
+            },
+            {
+              "curso": "MI2101",
+              "grupo": 14
+            },
+            {
+              "curso": "QU1106",
+              "grupo": 22
+            },
+            {
+              "curso": "QU1106",
+              "grupo": 23
+            },
+            {
+              "curso": "QU1102",
+              "grupo": 77
+            },
+            {
+              "curso": "QU1102",
+              "grupo": 25
+            },
+            {
+              "curso": "QU1102",
+              "grupo": 76
+            },
+            {
+              "curso": "QU1102",
+              "grupo": 27
+            },
+            {
+              "curso": "SO4604",
+              "grupo": 4
+            },
+            {
+              "curso": "CI1230",
+              "grupo": 7
+            },
+            {
+              "curso": "EL1200",
+              "grupo": 2
+            },
+            {
+              "curso": "FI1101",
+              "grupo": 13
+            },
+            {
+              "curso": "FI1201",
+              "grupo": 8
+            },
+            {
+              "curso": "MA1103",
+              "grupo": 12
+            },
+            {
+              "curso": "CI1231",
+              "grupo": 3
+            },
+            {
+              "curso": "EL2110",
+              "grupo": 1
+            },
+            {
+              "curso": "FI1102",
+              "grupo": 9
+            },
+            {
+              "curso": "MA2104",
+              "grupo": 3
+            },
+            {
+              "curso": "EL2207",
+              "grupo": 3
+            },
+            {
+              "curso": "FI2103",
+              "grupo": 9
+            },
+            {
+              "curso": "SE1101",
+              "grupo": 4
+            },
+            {
+              "curso": "SE1103",
+              "grupo": 1
+            },
+            {
+              "curso": "SE1103",
+              "grupo": 5
+            },
+            {
+              "curso": "SE1204",
+              "grupo": 7
+            },
+            {
+              "curso": "EL4513",
+              "grupo": 1
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "horarios": [
+            {
+              "dia": "MIE",
+              "inicio": "13:00",
+              "fin": "14:50"
+            },
+            {
+              "dia": "VIE",
+              "inicio": "13:00",
+              "fin": "14:50"
+            }
+          ],
+          "tieneChoque": true,
+          "choques": [
+            {
+              "curso": "MA0101",
+              "grupo": 28
+            },
+            {
+              "curso": "CA2125",
+              "grupo": 8
+            },
+            {
+              "curso": "CS1502",
+              "grupo": 16
+            },
+            {
+              "curso": "EL1100",
+              "grupo": 4
+            },
+            {
+              "curso": "MA1102",
+              "grupo": 15
+            },
+            {
+              "curso": "MA1102",
+              "grupo": 14
+            },
+            {
+              "curso": "MI2101",
+              "grupo": 8
+            },
+            {
+              "curso": "MI2101",
+              "grupo": 11
+            },
+            {
+              "curso": "MI2101",
+              "grupo": 14
+            },
+            {
+              "curso": "QU1106",
+              "grupo": 20
+            },
+            {
+              "curso": "QU1106",
+              "grupo": 21
+            },
+            {
+              "curso": "QU1102",
+              "grupo": 73
+            },
+            {
+              "curso": "QU1102",
+              "grupo": 22
+            },
+            {
+              "curso": "QU1102",
+              "grupo": 24
+            },
+            {
+              "curso": "QU1102",
+              "grupo": 23
+            },
+            {
+              "curso": "QU1102",
+              "grupo": 75
+            },
+            {
+              "curso": "QU1102",
+              "grupo": 74
+            },
+            {
+              "curso": "SO4604",
+              "grupo": 4
+            },
+            {
+              "curso": "CA3125",
+              "grupo": 4
+            },
+            {
+              "curso": "CI1230",
+              "grupo": 7
+            },
+            {
+              "curso": "EL1200",
+              "grupo": 4
+            },
+            {
+              "curso": "FI1101",
+              "grupo": 12
+            },
+            {
+              "curso": "MA1103",
+              "grupo": 11
+            },
+            {
+              "curso": "MA1103",
+              "grupo": 8
+            },
+            {
+              "curso": "FI1102",
+              "grupo": 8
+            },
+            {
+              "curso": "MA2104",
+              "grupo": 6
+            },
+            {
+              "curso": "EL2111",
+              "grupo": 3
+            },
+            {
+              "curso": "FI2103",
+              "grupo": 8
+            },
+            {
+              "curso": "SE1104",
+              "grupo": 4
+            },
+            {
+              "curso": "SE1204",
+              "grupo": 6
+            },
+            {
+              "curso": "EL4703",
+              "grupo": 1
+            }
+          ]
+        },
+        {
+          "numero": 6,
+          "horarios": [
+            {
+              "dia": "MAR",
+              "inicio": "17:00",
+              "fin": "18:50"
+            },
+            {
+              "dia": "JUE",
+              "inicio": "17:00",
+              "fin": "18:50"
+            }
+          ],
+          "tieneChoque": true,
+          "choques": [
+            {
+              "curso": "MA0101",
+              "grupo": 20
+            },
+            {
+              "curso": "MA0101",
+              "grupo": 15
+            },
+            {
+              "curso": "MA0101",
+              "grupo": 18
+            },
+            {
+              "curso": "MA0101",
+              "grupo": 16
+            },
+            {
+              "curso": "MA0101",
+              "grupo": 17
+            },
+            {
+              "curso": "MA0101",
+              "grupo": 13
+            },
+            {
+              "curso": "MA0101",
+              "grupo": 19
+            },
+            {
+              "curso": "MA0101",
+              "grupo": 14
+            },
+            {
+              "curso": "CS1502",
+              "grupo": 19
+            },
+            {
+              "curso": "MA1102",
+              "grupo": 8
+            },
+            {
+              "curso": "MA1102",
+              "grupo": 6
+            },
+            {
+              "curso": "MA1102",
+              "grupo": 9
+            },
+            {
+              "curso": "MA1102",
+              "grupo": 7
+            },
+            {
+              "curso": "MI2101",
+              "grupo": 15
+            },
+            {
+              "curso": "MI2101",
+              "grupo": 5
+            },
+            {
+              "curso": "QU1106",
+              "grupo": 13
+            },
+            {
+              "curso": "QU1102",
+              "grupo": 13
+            },
+            {
+              "curso": "QU1102",
+              "grupo": 43
+            },
+            {
+              "curso": "QU1102",
+              "grupo": 14
+            },
+            {
+              "curso": "QU1102",
+              "grupo": 45
+            },
+            {
+              "curso": "SO4604",
+              "grupo": 3
+            },
+            {
+              "curso": "CA3125",
+              "grupo": 3
+            },
+            {
+              "curso": "CI1230",
+              "grupo": 6
+            },
+            {
+              "curso": "CI1407",
+              "grupo": 2
+            },
+            {
+              "curso": "FI1101",
+              "grupo": 8
+            },
+            {
+              "curso": "FI1101",
+              "grupo": 3
+            },
+            {
+              "curso": "FI1201",
+              "grupo": 5
+            },
+            {
+              "curso": "MA1103",
+              "grupo": 7
+            },
+            {
+              "curso": "MA1103",
+              "grupo": 6
+            },
+            {
+              "curso": "CI1231",
+              "grupo": 8
+            },
+            {
+              "curso": "CI1231",
+              "grupo": 4
+            },
+            {
+              "curso": "EL4702",
+              "grupo": 1
+            },
+            {
+              "curso": "FI1102",
+              "grupo": 6
+            },
+            {
+              "curso": "MA2104",
+              "grupo": 2
+            },
+            {
+              "curso": "CS2303",
+              "grupo": 3
+            },
+            {
+              "curso": "CS2303",
+              "grupo": 6
+            },
+            {
+              "curso": "FI2103",
+              "grupo": 5
+            },
+            {
+              "curso": "SE1101",
+              "grupo": 3
+            },
+            {
+              "curso": "SE1105",
+              "grupo": 2
+            },
+            {
+              "curso": "SE1105",
+              "grupo": 6
+            },
+            {
+              "curso": "SE1204",
+              "grupo": 3
+            },
+            {
+              "curso": "SE1204",
+              "grupo": 9
+            },
+            {
+              "curso": "CM3207",
+              "grupo": 5
+            },
+            {
+              "curso": "EL3310",
+              "grupo": 1
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "horarios": [
+            {
+              "dia": "SAB",
+              "inicio": "07:30",
+              "fin": "11:20"
+            }
+          ],
+          "tieneChoque": true,
+          "choques": [
+            {
+              "curso": "MA0101",
+              "grupo": 35
+            },
+            {
+              "curso": "MA1102",
+              "grupo": 20
+            },
+            {
+              "curso": "MA1103",
+              "grupo": 16
+            },
+            {
+              "curso": "MA2104",
+              "grupo": 5
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "horarios": [
+            {
+              "dia": "MAR",
+              "inicio": "09:30",
+              "fin": "11:20"
+            },
+            {
+              "dia": "JUE",
+              "inicio": "09:30",
+              "fin": "11:20"
+            }
+          ],
+          "tieneChoque": true,
+          "choques": [
+            {
+              "curso": "MA0101",
+              "grupo": 8
+            },
+            {
+              "curso": "MA0101",
+              "grupo": 7
+            },
+            {
+              "curso": "MA0101",
+              "grupo": 3
+            },
+            {
+              "curso": "MA0101",
+              "grupo": 4
+            },
+            {
+              "curso": "MA0101",
+              "grupo": 5
+            },
+            {
+              "curso": "MA0101",
+              "grupo": 1
+            },
+            {
+              "curso": "MA0101",
+              "grupo": 6
+            },
+            {
+              "curso": "MA0101",
+              "grupo": 2
+            },
+            {
+              "curso": "CA2125",
+              "grupo": 11
+            },
+            {
+              "curso": "CA2125",
+              "grupo": 5
+            },
+            {
+              "curso": "CS1502",
+              "grupo": 17
+            },
+            {
+              "curso": "CS1502",
+              "grupo": 18
+            },
+            {
+              "curso": "CS1502",
+              "grupo": 14
+            },
+            {
+              "curso": "CS1502",
+              "grupo": 9
+            },
+            {
+              "curso": "CS1502",
+              "grupo": 3
+            },
+            {
+              "curso": "MA1102",
+              "grupo": 4
+            },
+            {
+              "curso": "MA1102",
+              "grupo": 2
+            },
+            {
+              "curso": "MA1102",
+              "grupo": 3
+            },
+            {
+              "curso": "MA1102",
+              "grupo": 1
+            },
+            {
+              "curso": "MI2101",
+              "grupo": 3
+            },
+            {
+              "curso": "QU1106",
+              "grupo": 6
+            },
+            {
+              "curso": "QU1106",
+              "grupo": 4
+            },
+            {
+              "curso": "QU1106",
+              "grupo": 5
+            },
+            {
+              "curso": "QU1102",
+              "grupo": 36
+            },
+            {
+              "curso": "QU1102",
+              "grupo": 35
+            },
+            {
+              "curso": "QU1102",
+              "grupo": 5
+            },
+            {
+              "curso": "QU1102",
+              "grupo": 6
+            },
+            {
+              "curso": "QU1102",
+              "grupo": 4
+            },
+            {
+              "curso": "QU1102",
+              "grupo": 34
+            },
+            {
+              "curso": "CA3125",
+              "grupo": 2
+            },
+            {
+              "curso": "CI1230",
+              "grupo": 3
+            },
+            {
+              "curso": "CI1230",
+              "grupo": 2
+            },
+            {
+              "curso": "FI1101",
+              "grupo": 2
+            },
+            {
+              "curso": "FI1201",
+              "grupo": 2
+            },
+            {
+              "curso": "FI1201",
+              "grupo": 9
+            },
+            {
+              "curso": "MA1103",
+              "grupo": 3
+            },
+            {
+              "curso": "CI1231",
+              "grupo": 6
+            },
+            {
+              "curso": "CI1231",
+              "grupo": 2
+            },
+            {
+              "curso": "EL2113",
+              "grupo": 2
+            },
+            {
+              "curso": "FI1102",
+              "grupo": 11
+            },
+            {
+              "curso": "FI1102",
+              "grupo": 3
+            },
+            {
+              "curso": "FI1102",
+              "grupo": 2
+            },
+            {
+              "curso": "MA2104",
+              "grupo": 4
+            },
+            {
+              "curso": "CS2303",
+              "grupo": 4
+            },
+            {
+              "curso": "CS2303",
+              "grupo": 1
+            },
+            {
+              "curso": "FI2103",
+              "grupo": 1
+            },
+            {
+              "curso": "FI2103",
+              "grupo": 2
+            },
+            {
+              "curso": "SE1103",
+              "grupo": 3
+            },
+            {
+              "curso": "SE1104",
+              "grupo": 1
+            },
+            {
+              "curso": "SE1105",
+              "grupo": 4
+            },
+            {
+              "curso": "SE1107",
+              "grupo": 5
+            },
+            {
+              "curso": "SE1107",
+              "grupo": 1
+            },
+            {
+              "curso": "SE1204",
+              "grupo": 8
+            },
+            {
+              "curso": "SE1206",
+              "grupo": 1
+            },
+            {
+              "curso": "SE1206",
+              "grupo": 3
+            },
+            {
+              "curso": "SE1209",
+              "grupo": 3
+            },
+            {
+              "curso": "SE1218",
+              "grupo": 1
+            },
+            {
+              "curso": "SE1221",
+              "grupo": 1
+            },
+            {
+              "curso": "SE1221",
+              "grupo": 2
+            },
+            {
+              "curso": "EL3215",
+              "grupo": 1
+            },
+            {
+              "curso": "CS3404",
+              "grupo": 2
+            },
+            {
+              "curso": "CS3404",
+              "grupo": 6
+            },
+            {
+              "curso": "CS3404",
+              "grupo": 9
+            },
+            {
+              "curso": "CM3207",
+              "grupo": 7
+            },
+            {
+              "curso": "CM3207",
+              "grupo": 3
+            },
+            {
+              "curso": "EL4703",
+              "grupo": 2
+            }
+          ]
+        },
+        {
+          "numero": 7,
+          "horarios": [
+            {
+              "dia": "MIE",
+              "inicio": "07:30",
+              "fin": "09:20"
+            },
+            {
+              "dia": "VIE",
+              "inicio": "07:30",
+              "fin": "09:20"
+            }
+          ],
+          "tieneChoque": true,
+          "choques": [
+            {
+              "curso": "MA0101",
+              "grupo": 23
+            },
+            {
+              "curso": "MA0101",
+              "grupo": 22
+            },
+            {
+              "curso": "CS1502",
+              "grupo": 15
+            },
+            {
+              "curso": "MA1102",
+              "grupo": 11
+            },
+            {
+              "curso": "MA1102",
+              "grupo": 10
+            },
+            {
+              "curso": "MI2101",
+              "grupo": 7
+            },
+            {
+              "curso": "MI2101",
+              "grupo": 6
+            },
+            {
+              "curso": "QU1106",
+              "grupo": 14
+            },
+            {
+              "curso": "QU1106",
+              "grupo": 16
+            },
+            {
+              "curso": "QU1102",
+              "grupo": 16
+            },
+            {
+              "curso": "QU1102",
+              "grupo": 48
+            },
+            {
+              "curso": "QU1102",
+              "grupo": 18
+            },
+            {
+              "curso": "QU1102",
+              "grupo": 17
+            },
+            {
+              "curso": "QU1102",
+              "grupo": 46
+            },
+            {
+              "curso": "CI1230",
+              "grupo": 11
+            },
+            {
+              "curso": "CI1230",
+              "grupo": 4
+            },
+            {
+              "curso": "FI1101",
+              "grupo": 9
+            },
+            {
+              "curso": "MA1103",
+              "grupo": 9
+            },
+            {
+              "curso": "EL2110",
+              "grupo": 3
+            },
+            {
+              "curso": "EL2113",
+              "grupo": 4
+            },
+            {
+              "curso": "MA2104",
+              "grupo": 1
+            },
+            {
+              "curso": "EL2114",
+              "grupo": 3
+            },
+            {
+              "curso": "FI2103",
+              "grupo": 6
+            },
+            {
+              "curso": "SE1201",
+              "grupo": 2
+            },
+            {
+              "curso": "SE1204",
+              "grupo": 4
+            },
+            {
+              "curso": "SE1206",
+              "grupo": 4
+            },
+            {
+              "curso": "SE1209",
+              "grupo": 4
+            },
+            {
+              "curso": "SE1209",
+              "grupo": 5
+            },
+            {
+              "curso": "SE1222",
+              "grupo": 1
+            },
+            {
+              "curso": "EL3212",
+              "grupo": 2
+            },
+            {
+              "curso": "CM3207",
+              "grupo": 4
+            },
+            {
+              "curso": "CM3207",
+              "grupo": 2
             }
           ]
         }
@@ -66365,10 +66300,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1103",
               "grupo": 3
             },
@@ -66391,6 +66322,10 @@
             {
               "curso": "EL3215",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CM3207",
@@ -66764,10 +66699,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1103",
               "grupo": 3
             },
@@ -66790,6 +66721,10 @@
             {
               "curso": "EL3215",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CM3207",
@@ -66949,10 +66884,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1104",
               "grupo": 1
             },
@@ -66979,6 +66910,10 @@
             {
               "curso": "SE1221",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CM3207",
@@ -67646,10 +67581,6 @@
               "grupo": 4
             },
             {
-              "curso": "MA2105",
-              "grupo": 7
-            },
-            {
               "curso": "SE1101",
               "grupo": 2
             },
@@ -67724,6 +67655,10 @@
             {
               "curso": "EL3307",
               "grupo": 2
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 7
             },
             {
               "curso": "CS3404",
@@ -68285,14 +68220,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 1
-            },
-            {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1103",
               "grupo": 3
             },
@@ -68327,6 +68254,14 @@
             {
               "curso": "EL3307",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -68518,10 +68453,6 @@
               "grupo": 6
             },
             {
-              "curso": "MA2105",
-              "grupo": 7
-            },
-            {
               "curso": "SE1103",
               "grupo": 4
             },
@@ -68552,6 +68483,10 @@
             {
               "curso": "EL3212",
               "grupo": 2
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 7
             },
             {
               "curso": "CS3404",
@@ -68775,14 +68710,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 1
-            },
-            {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1102",
               "grupo": 2
             },
@@ -68833,6 +68760,14 @@
             {
               "curso": "EL3307",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -68996,10 +68931,6 @@
               "grupo": 5
             },
             {
-              "curso": "MA2105",
-              "grupo": 6
-            },
-            {
               "curso": "SE1101",
               "grupo": 3
             },
@@ -69010,6 +68941,10 @@
             {
               "curso": "SE1204",
               "grupo": 3
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 6
             },
             {
               "curso": "EL3310",
@@ -69346,10 +69281,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 1
-            },
-            {
               "curso": "SE1102",
               "grupo": 2
             },
@@ -69379,6 +69310,10 @@
             },
             {
               "curso": "EL3307",
+              "grupo": 1
+            },
+            {
+              "curso": "MA2105",
               "grupo": 1
             },
             {
@@ -69711,10 +69646,6 @@
               "grupo": 5
             },
             {
-              "curso": "MA2105",
-              "grupo": 6
-            },
-            {
               "curso": "SE1101",
               "grupo": 3
             },
@@ -69733,6 +69664,10 @@
             {
               "curso": "SE1204",
               "grupo": 9
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 6
             },
             {
               "curso": "CM3207",
@@ -70100,10 +70035,6 @@
               "grupo": 9
             },
             {
-              "curso": "MA2105",
-              "grupo": 5
-            },
-            {
               "curso": "SE1101",
               "grupo": 4
             },
@@ -70118,6 +70049,10 @@
             {
               "curso": "SE1204",
               "grupo": 7
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 5
             }
           ]
         }
@@ -70343,10 +70278,6 @@
               "grupo": 2
             },
             {
-              "curso": "MA2105",
-              "grupo": 3
-            },
-            {
               "curso": "SE1103",
               "grupo": 3
             },
@@ -70397,6 +70328,10 @@
             {
               "curso": "EL3215",
               "grupo": 1
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 3
             },
             {
               "curso": "CS3404",
@@ -70549,16 +70484,16 @@
               "grupo": 8
             },
             {
-              "curso": "MA2105",
-              "grupo": 2
-            },
-            {
               "curso": "SE1104",
               "grupo": 4
             },
             {
               "curso": "SE1204",
               "grupo": 6
+            },
+            {
+              "curso": "MA2105",
+              "grupo": 2
             }
           ]
         }

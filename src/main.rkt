@@ -11,9 +11,7 @@
          "functional/stream-utils.rkt")
 
 
-;; ==================================================
-;; Manejo de errores de frontera
-;; ==================================================
+
 
 ;; Reporta un error comprensible para el usuario
 ;; y finaliza la ejecución con estado no exitoso.
@@ -24,17 +22,11 @@
   (exit 1))
 
 
-;; ==================================================
-;; Pipeline de Etapa 2
-;; ==================================================
 
 (define (run-stage2 catalog-path
                     preferences-path
                     output-path)
 
-  ;; -----------------------------------------------
-  ;; 1. Leer catálogo
-  ;; -----------------------------------------------
 
   (define catalog-result
     (read-catalog-json catalog-path))
@@ -42,12 +34,7 @@
   (cond
     [(result-err? catalog-result)
 
-     ;; El reader actual representa lectura,
-     ;; sintaxis y validación mediante result-err
-     ;; sin una categoría estructurada adicional.
-     ;;
-     ;; KANE2-29 no intenta inferir el tipo de
-     ;; error analizando el texto del mensaje.
+
      (fail-with-code
       "E2_SCHEMA"
       (result-err-msg catalog-result))]
@@ -57,9 +44,7 @@
      (define catalog
        (result-ok-val catalog-result))
 
-     ;; --------------------------------------------
-     ;; 2. Leer preferencias
-     ;; --------------------------------------------
+
 
      (define preferences-result
        (read-preferences-json
@@ -78,35 +63,26 @@
         (define preferences
           (result-ok-val preferences-result))
 
-        ;; -----------------------------------------
-        ;; 3. Construir candidatos
-        ;; -----------------------------------------
 
         (define candidates
           (build-candidates
            catalog
            preferences))
 
-        ;; -----------------------------------------
-        ;; 4. Generar combinaciones lazy
-        ;; -----------------------------------------
+
 
         (define combinations
           (generate-combinations
            candidates))
 
-        ;; -----------------------------------------
-        ;; 5. Filtrar correquisitos
-        ;; -----------------------------------------
+
 
         (define combinations-with-corequisites
           (stream-select
            corequisites-satisfied?
            combinations))
 
-        ;; -----------------------------------------
-        ;; 6. Filtrar rango de créditos
-        ;; -----------------------------------------
+
 
         (define valid-combinations
           (stream-select
@@ -116,9 +92,7 @@
               comb))
            combinations-with-corequisites))
 
-        ;; -----------------------------------------
-        ;; 7. Escribir JSON para Prolog
-        ;; -----------------------------------------
+
 
         (with-handlers
             ([exn:fail:filesystem?
@@ -132,9 +106,7 @@
            valid-combinations))])]))
 
 
-;; ==================================================
-;; Punto de entrada del ejecutable
-;; ==================================================
+
 
 (module+ main
 

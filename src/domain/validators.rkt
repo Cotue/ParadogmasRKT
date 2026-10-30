@@ -45,7 +45,7 @@
              (result-err (format "El curso ~a no posee un campo 'carrera' válido o está vacío."
                                  (if (hash? c) (hash-ref c 'codigo "DESCONOCIDO") "DESCONOCIDO")))))])))
 
-;;los créditos estén en el rango de 0 a 12
+
 (define (validate-course-credits courses-list)
   (let loop ([cs courses-list])
     (cond

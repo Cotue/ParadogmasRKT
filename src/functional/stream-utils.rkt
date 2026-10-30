@@ -13,10 +13,7 @@
          (stream-of/c A)
          (stream-of/c A)))]))
 
-;; stream-of/c: contrato propio para "stream cuyos elementos cumplen elem/c".
-;; Sustituye a stream/c de racket/stream, que falla (impersonate-vector) con
-;; cualquier stream. Es perezoso: cada elemento se verifica solo cuando se
-;; consume y el resto del stream se envuelve de forma diferida.
+
 (define (stream-of/c elem/c)
   (define elem-ctc (coerce-contract 'stream-of/c elem/c))
   (define elem-proj (contract-late-neg-projection elem-ctc))

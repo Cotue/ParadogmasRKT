@@ -10,9 +10,7 @@
    (-> preferences? combination? boolean?)]))
 
 ;; Verifica que el total de créditos de una combinación se encuentre
-;; dentro del rango inclusivo definido por las preferencias del estudiante.
-
-;;   (stream-select (lambda (c) (credits-in-range? prefs c)) combinations)
+;; dentro del rango inclusivo definido por las preferencias del estudiante
 (define (credits-in-range? prefs comb)
   (<= (preferences-min-credits prefs)
       (combination-total-credits comb)

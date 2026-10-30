@@ -24,7 +24,6 @@
         (result-ok (read-json port))))))
 
 ;; mapea una referencia de choque al identificador
-;; compuesto curso + grupo
 (define (json->group-key h)
   (group-key (hash-ref h 'curso)
              (hash-ref h 'grupo)))
