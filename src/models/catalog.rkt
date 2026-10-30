@@ -3,21 +3,7 @@
 (require racket/contract
          "contracts.rkt")
 
-;; ==================================================
-;; Modelos relacionados con el catálogo.
-;; ==================================================
 
-
-;; --------------------------------------------------
-;; group-key
-;;
-;; Identifica de forma única un grupo mediante:
-;;
-;;   código de curso + número de grupo
-;;
-;; Ejemplo:
-;;   CE2201, grupo 2
-;; --------------------------------------------------
 
 (struct group-key
   (course-code
@@ -25,31 +11,12 @@
   #:transparent)
 
 
-;; --------------------------------------------------
-;; group-option
-;;
-;; Representa un grupo disponible de un curso.
-;;
-;; conflicts contiene las identidades de los grupos
-;; incompatibles, ya calculadas previamente por C.
-;; --------------------------------------------------
 
 (struct group-option
   (number
    conflicts)
   #:transparent)
 
-
-;; --------------------------------------------------
-;; course
-;;
-;; Representa un curso recibido desde el catálogo.
-;;
-;; can-enroll? NO se recalcula aquí.
-;;
-;; pending-corequisites contiene solamente los
-;; correquisitos que C determinó como pendientes.
-;; --------------------------------------------------
 
 (struct course
   (code
@@ -61,13 +28,6 @@
   #:transparent)
 
 
-;; --------------------------------------------------
-;; catalog
-;;
-;; Representa el catálogo completo cargado.
-;;
-;; Una ejecución procesa una única carrera.
-;; --------------------------------------------------
 
 (struct catalog
   (schema-version
@@ -76,19 +36,7 @@
   #:transparent)
 
 
-;; --------------------------------------------------
-;; candidate-course
-;;
-;; Representa un curso que ya superó la construcción
-;; de candidatos.
-;;
-;; Si un valor es candidate-course, se asume que:
-;;
-;;   can-enroll? = #t
-;;
-;; y que groups contiene únicamente los grupos
-;; permitidos por las preferencias.
-;; --------------------------------------------------
+
 
 (struct candidate-course
   (code
@@ -99,9 +47,6 @@
   #:transparent)
 
 
-;; ==================================================
-;; Interfaz pública
-;; ==================================================
 
 (provide
  (contract-out

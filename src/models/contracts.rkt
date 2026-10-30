@@ -14,21 +14,14 @@
   (and (string? value)
        (not (string=? (string-trim value) ""))))
 
-;; Código de curso válido a nivel estructural.
-;;
-;; Este contrato únicamente garantiza que sea un
-;; String no vacío. La validación de si el curso
-;; existe pertenece a los módulos de entrada.
+
 (define course-code/c
   (flat-named-contract
    'course-code/c
    non-blank-string?))
 
 ;; Código de carrera válido a nivel estructural.
-;;
-;; No restringe todavía a códigos concretos como
-;; "IC" o "IE"; esa validación pertenece al reader
-;; encargado del contrato externo del catálogo.
+
 (define career-code/c
   (flat-named-contract
    'career-code/c

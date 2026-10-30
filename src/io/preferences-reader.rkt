@@ -11,7 +11,7 @@
  (contract-out
   [read-preferences-json (-> path-string? catalog? result?)]))
 
-;; mapea entrada JSON a struct course-preference
+
 (define (json->course-preference h)
   (course-preference (hash-ref h 'curso)
                      (hash-ref h 'grupos)))
